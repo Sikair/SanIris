@@ -1,0 +1,36 @@
+{
+  "variantId": "sikr_hefring_stock",
+  "hullId": "sikr_hefring",
+  "displayName": "Heavy",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "sikr_hefring_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ARM_R": "sikr_mech_rail"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ARM_L": "sikr_mech_rpg"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

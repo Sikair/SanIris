@@ -1,0 +1,78 @@
+{
+  "variantId": "sikr_manta_standard",
+  "hullId": "sikr_manta",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 10,
+  "fluxVents": 7,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "dualflak",
+        "WS0002": "dualflak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "salamanderpod",
+        "WS0004": "salamanderpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "pilum",
+        "WS0006": "pilum"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "lightdualmg",
+        "WS0009": "lightdualmg",
+        "WS0011": "vulcan",
+        "WS0013": "vulcan",
+        "WS0015": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "lightdualmg",
+        "WS0010": "lightdualmg",
+        "WS0012": "vulcan",
+        "WS0014": "vulcan",
+        "WS0016": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0017": "vulcan",
+        "WS0018": "vulcan",
+        "WS0019": "vulcan",
+        "WS0020": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sikr_kolga_wing",
+    "sikr_kolga_wing",
+    "sikr_horonn_wing",
+    "sikr_horonn_wing",
+    "sikr_hefring_wing",
+    "sikr_hefring_wing"
+  ]
+}

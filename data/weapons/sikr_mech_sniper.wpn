@@ -1,0 +1,47 @@
+{
+  "id": "sikr_mech_sniper",
+  "specClass": "projectile",
+  "projectileSpecId": "sikr_mech_sniper_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/ships/fighters/mech/sikr_mech_sniper.png",
+  "turretGunSprite": "graphics/ships/fighters/mech/sikr_mech_sniper_gun.png",
+  "hardpointSprite": "",
+  "specialWeaponGlowHeight": 8,
+  "specialWeaponGlowWidth": 4,
+  "visualRecoil": 8,
+  "renderHints":["RENDER_BARREL_BELOW"],
+  "turretOffsets": [
+    36,
+    4
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "interruptibleBurst": true,
+  "muzzleFlashSpec": {
+    "length": 25,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "light_machinegun_fire"
+}

@@ -1,0 +1,5 @@
+name,id,tags,tech/manufacturer,rarity,base price,stack size,cargo space,baseRaidDanger,icon,sound id,sound id drop,plugin,plugin params,desc,order
+# blueprints,,,,,,,,,,,,,,,
+Aegirran Ship Package,sikr_ar_package,package_bp,San-Iris,,15000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,sikr_ar_bp,Enables heavy industry to construct the more common ship hulls designed by Aegirran.,200
+Aegirran Capital Package,sikr_arc_package,package_bp,San-Iris,,20000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,sikr_arc_bp,Enables heavy industry to construct the heavier ship hulls and fighters designed by Aegirran.,201
+Aegirran Weapon Package,sikr_arw_package,package_bp,San-Iris,,20000,1000,1,,graphics/icons/cargo/blueprint_midline.png,ui_chip_pickup,ui_bp_package_drop,com.fs.starfarer.api.campaign.impl.items.MultiBlueprintItemPlugin,sikr_arw_bp,Enables heavy industry to construct weaponry designed by Aegirran.,202

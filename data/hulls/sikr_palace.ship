@@ -1,0 +1,132 @@
+{
+  "hullName": "Iridaceae",
+  "hullId": "sikr_palace",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/sikr_palace.png",
+  "style": "MIDLINE",
+  "height": 590,
+  "width": 206,
+  "center": [103, 295],
+  "collisionRadius": 323.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 310.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_aegirran",
+    "phasefield"
+  ],
+  "builtInWeapons": {
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 135,
+      "locations": [-179, 88]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -135,
+      "locations": [-179, -88]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-148, 96],
+      "length": 0,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-148, -96],
+      "length": 0,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-167, 78],
+      "length": 0,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-167, -78],
+      "length": 0,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-189, 59],
+      "length": 0,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-189, -59],
+      "length": 0,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -177, -25,
+    -190, -60,
+    -163, -44,
+    -151, -56,
+    -169, -80,
+    -144, -66,
+    -135, -77,
+    -149, -98,
+    -127, -88,
+    -104, -94,
+    -15, -66,
+    29, -67,
+    20, -55,
+    123, -32,
+    128, -24,
+    289, -0,
+    128, 24,
+    123, 32,
+    20, 55,
+    29, 67,
+    -15, 66,
+    -104, 94,
+    -127, 88,
+    -149, 98,
+    -135, 77,
+    -144, 66,
+    -169, 80,
+    -151, 56,
+    -163, 44,
+    -190, 60,
+    -177, 25,
+    -289, -0
+  ]
+}

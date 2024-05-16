@@ -1,0 +1,22 @@
+{
+	"id":"sikr_shed_armor",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	#"aiScript":"data.ai.sikr_emp_ai",
+	
+	"statsScript":"data.shipsystems.scripts.sikr_shed_armor",
+	
+	#"effectColor1":[150,150,255,200],
+	#"effectColor2":[175,175,255,255],
+	"effectColor1":[255,150,255,200],
+	"effectColor2":[255,175,255,255],
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper",
+	"loopSound":"system_damper_loop",
+	"deactivateSound":"system_damper_off",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+}

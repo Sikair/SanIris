@@ -1,0 +1,38 @@
+{
+  "variantId": "sikr_marus_standard",
+  "hullId": "sikr_marus",
+  "displayName": "Standard",
+  "goalVariant": true,
+  "fluxCapacitors": 11,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sikr_urchin_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

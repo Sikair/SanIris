@@ -1,0 +1,44 @@
+{
+  "variantId": "sikr_unnr_escort",
+  "hullId": "sikr_unnr",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "dualflak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "ARMOR": "sikr_unnr_armor_standard"
+    }
+  ],
+  "wings": [
+    "sikr_jorm_wing"
+  ]
+}

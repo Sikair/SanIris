@@ -1,0 +1,26 @@
+{
+  "hullName": "Shield",
+  "hullId": "sikr_shield_emitter",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/weapons/sikr_nothing.png",
+  "style": "MIDLINE",
+  "height": 31,
+  "width": 32,
+  "center": [16, 15.5],
+  "collisionRadius": 202,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 198,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk",
+    "shield_always_on"
+  ],
+  "weaponSlots": [],
+  "engineSlots": [],
+  "bounds": [
+    -12.5, -10.5,
+    11.5, -6.5,
+    11.5, 6.5,
+    -12.5, 10.5
+  ]
+}

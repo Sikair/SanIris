@@ -1,0 +1,13 @@
+name,id,flux/second,f/s (base rate),f/s (base cap),flux/use,f/u (base rate),f/u (base cap),cr/u,max uses,regen,charge up,active,down,cooldown,toggle,noDissipation,noHardDissipation,hardFlux,noFiring,noTurning,noStrafing,noAccel,noShield,noVent,isPhaseCloak,tags,icon
+Point Defense Drone,sikr_pd_drone,,,,,,,,27,,0,,0,0,,,,,,,,,,,,,graphics/icons/hullsys/drone_pd_high.png
+Heated Horn Pierce,sikr_leviathan_system_offense,1,,,,,,,,,2,5,1,22,,,,,,TRUE,,,TRUE,,,,graphics/icons/hullsys/burn_drive.png
+Horn Regenerative Field,sikr_leviathan_system_defense,1,,,,,,,,,2,5,1,20,,,,,,,,,TRUE,TRUE,,,graphics/icons/hullsys/burn_drive.png
+Cover Shield,sikr_unnr_system,1,,,,,,,,,0.25,,0,4,true,,TRUE,,,,,,TRUE,,,,graphics/icons/hullsys/high_energy_focus.png
+EMP Emitter,sikr_emp_system,400,,,,,,,,,0.2,,0.2,1,true,,,,,,,,,,,,graphics/icons/hullsys/emp_emitter.png
+Long Range Supply,sikr_supply,,,,,,,,,,1,,,22,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Mine layer,sikr_mine,,,,,,,,,,1,,,1,,,,,,,,,,,,,graphics/icons/hullsys/flare_launcher.png
+Fighter Damper Emitter,sikr_fighter_damper,,,,,,0.5,,,,0.5,10,0.5,20,,,,,,,,,,,,,graphics/icons/hullsys/targeting_feed.png
+Armor Shedding,sikr_shed_armor,,,,500,,,,10,0.08,0,0.1,0,15,,,,,,,,,,,,,graphics/icons/hullsys/damper_field.png
+Damper Field module,sikr_damper_module,1,,,,,,,2,0.05,0.25,3,0.25,0,,,,,TRUE,,,,TRUE,TRUE,,,graphics/icons/hullsys/damper_field.png
+Phase Skimmer,sikr_displacer,,,,,,,,3,0.1,0.25,,0.25,1,,TRUE,,TRUE,,,,,,,,,graphics/icons/hullsys/displacer.png
+Energized Ammo Feeder,sikr_vine_system,,,,,,,,,,0.5,2,0.3,10,,,,,,,,,,,,,graphics/icons/hullsys/ammo_feeder.png

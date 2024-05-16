@@ -1,0 +1,46 @@
+{
+  "id": "sikr_ontos_battery",
+  "specClass": "projectile",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "turretSprite": "graphics/weapons/sikr_recoilless_large_t.png",
+  "turretUnderSprite": "graphics/weapons/sikr_recoilless_large_t_b.png",
+  "hardpointSprite": "graphics/weapons/sikr_recoilless_large_h.png",
+  "turretOffsets": [
+    28,
+    5.5,
+    28,
+    -5.5,
+    31,
+    16.5,
+    31,
+    -16.5
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    42,
+    4.5,
+    42,
+    -4.5,
+    45,
+    13.5,
+    45,
+    -13.5
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+  "animationType":"NONE",  # NONE, GLOW, MUZZLE_FLASH, SMOKE
+  "projectileSpecId":"sikr_ontos_shot",  # projectile that will be fired
+  "fireSoundTwo":"heavy_mauler_fire",	
+  "everyFrameEffect":"data.scripts.weapons.sikr_ontos_plugin",
+}

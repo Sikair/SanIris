@@ -1,0 +1,6 @@
+id,variant,tags,tier,rarity,fleet pts,op cost,formation,range,attackRunRange,attackPositionOffset,num,role,role desc,refit,base value,,,,,,,,,,,,,number
+sikr_kolga_wing,sikr_kolga_stock,"fighter4, fighter, sikr_ar_bp",2,0.3,13,20,BOX,4000,600,,2,FIGHTER,Multirole,22,17000,,,,,,,,,,,,,
+sikr_horonn_wing,sikr_horonn_stock,"interceptor3, interceptor, attack_at_an_angle, sikr_arc_bp",2,0.3,14,20,BOX,4000,600,,2,INTERCEPTOR,Interceptor,28,21000,,,,,,,,,,,,,
+sikr_hefring_wing,sikr_hefring_stock,"bomber4, bomber, attack_at_an_angle, sikr_arc_bp",3,0.3,16,20,V,4000,800,200,1,FIGHTER,Artillery,36,25000,,,,,,,,,,,,,
+sikr_jorm_wing,sikr_jorm_stock,"interceptor3, interceptor, sikr_arc_bp",1,0.3,8,12,BOX,3000,400,,2,INTERCEPTOR,Interceptor,15,6000,,,,,,,,,,,,,
+sikr_shield_emitter_wing,sikr_shield_emitter_variant,"no_drop, no_sell",0,1,0,0,V,0,0,,1,FIGHTER,SYSTEM,100,20000,,,,,,,,,,,,,

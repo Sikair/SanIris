@@ -1,0 +1,93 @@
+{
+  "hullName": "Kolga",
+  "hullId": "sikr_kolga",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/mech/sikr_kolga.png",
+  "style": "MIDLINE",
+  "height": 36,
+  "width": 32,
+  "center": [16, 23],
+  "collisionRadius": 40,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 38.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_mechs"
+  ],
+  "builtInWeapons": {
+    "PAULDRON_L": "sikr_kolga_pauldronL",
+    "PAULDRON_R": "sikr_kolga_pauldronR"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [9, -0]
+    },
+    {
+      "id": "PAULDRON_L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 356,
+      "angle": 20,
+      "locations": [3, 2]
+    },
+    {
+      "id": "PAULDRON_R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 356,
+      "angle": -20,
+      "locations": [3, -2]
+    },
+    {
+      "id": "ARM_L",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [0, 8]
+    },
+    {
+      "id": "ARM_R",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [0, -8]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16, -0],
+      "length": 12.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-16, 0],
+      "length": 12.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    -2, -15,
+    11, -0,
+    -2, 15,
+    -16, -0
+  ]
+}

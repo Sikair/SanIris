@@ -1,0 +1,37 @@
+{
+	"id":"sikr_ornn_mrm",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"onHitEffect":"data.scripts.weapons.sikr_ornn_hit",
+	"sprite":"graphics/missiles/sikr_ornn_mrm.png",
+	"size":[10,22],	
+	"center":[5,12],
+	"collisionRadius":14,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[200,200,255,235],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"engineSpec":{"turnAcc":210,
+				  "turnRate":70,
+				  "acc":600,
+				  "dec":500},
+	"engineSlots":[{"id":"ES1",
+					"loc":[-13, 0],
+				    #"style":"MISSILE_HIGH_TECH",
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"mode":"QUAD_STRIP", # PARTICLES or QUAD_STRIP, determines which params are used
+						"engineColor":[200,0,165,255],
+						"contrailDuration":1,
+						"contrailWidthMult":1,
+						"contrailWidthAddedFractionAtEnd":2.5,  # can be negative. makes trail spread out/narrow at the end
+						"contrailMinSeg":5, # min segment length, in pixels
+						"contrailMaxSpeedMult":0.5f,
+						"contrailAngularVelocityMult":0.5f,
+						"contrailColor":[200,0,165,75],
+						"type":"SMOKE" # GLOW or SMOKE; additive or regular blend mode
+					},
+				    "width":6.0,
+				    "length":35.0,
+				    "angle":180.0},
+				    ]
+}

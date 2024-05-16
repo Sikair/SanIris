@@ -1,0 +1,119 @@
+{
+  "hullName": "Seir",
+  "hullId": "sikr_seir",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sikr_seir.png",
+  "style": "MIDLINE",
+  "height": 158,
+  "width": 112,
+  "center": [56, 101],
+  "collisionRadius": 119.5,
+  "shieldCenter": [-12, -0],
+  "shieldRadius": 97,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_aegirran"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -30,
+      "locations": [24, -14]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 30,
+      "locations": [24, 14]
+    },
+    {
+      "id": "MINE0",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-36, -0]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -150,
+      "locations": [-40.5, -50.5]
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 150,
+      "locations": [-40.5, 50.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-41, -38],
+      "length": 0,
+      "width": 10,
+      "angle": -135,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-41, 38],
+      "length": 0,
+      "width": 10,
+      "angle": 135,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-24, -51],
+      "length": 0,
+      "width": 10,
+      "angle": -135,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-24, 51],
+      "length": 0,
+      "width": 10,
+      "angle": 135,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -96, -19,
+    -80, -10,
+    -33, -21,
+    -42, -40,
+    -17, -32.5,
+    -25, -53,
+    31, -34,
+    54, -0,
+    31, 34,
+    -25, 53,
+    -17, 32.5,
+    -42, 40,
+    -33, 21,
+    -80, 10,
+    -96, 19
+  ]
+}

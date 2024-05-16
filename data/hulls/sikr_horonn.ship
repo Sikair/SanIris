@@ -1,0 +1,94 @@
+{
+  "hullName": "Horonn",
+  "hullId": "sikr_horonn",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/mech/sikr_horonn.png",
+  "style": "MIDLINE",
+  "height": 31,
+  "width": 32,
+  "center": [16, 16],
+  "collisionRadius": 29.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 28.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_mechs"
+  ],
+  "builtInWeapons": {
+    "PAULDRON_L": "sikr_horonn_pauldronL",
+    "PAULDRON_R": "sikr_horonn_pauldronR"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 135,
+      "angle": 0,
+      "locations": [11, -0]
+    },
+    {
+      "id": "PAULDRON_R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 356,
+      "angle": -20,
+      "locations": [5, -3]
+    },
+    {
+      "id": "ARM_L",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 30,
+      "locations": [2, 9]
+    },
+    {
+      "id": "ARM_R",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -30,
+      "locations": [2, -9]
+    },
+    {
+      "id": "PAULDRON_L",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "TURRET",
+      "arc": 356,
+      "angle": 20,
+      "locations": [5, 3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-13, 10],
+      "length": 8.5,
+      "width": 6,
+      "angle": 149.5,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-13, -10],
+      "length": 8.5,
+      "width": 6,
+      "angle": -149.5,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -12, -0,
+    0, -16.5,
+    12, -0,
+    0, 16.5
+  ]
+}

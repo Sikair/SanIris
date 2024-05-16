@@ -1,0 +1,14 @@
+{
+  "variantId": "sikr_leviathan_offense_armor",
+  "hullId": "sikr_leviathan_offense",
+  "displayName": "Armor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

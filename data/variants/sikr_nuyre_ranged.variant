@@ -1,0 +1,57 @@
+{
+  "variantId": "sikr_nuyre_ranged",
+  "hullId": "sikr_nuyre",
+  "displayName": "Ranged",
+  "goalVariant": true,
+  "fluxCapacitors": 6,
+  "fluxVents": 11,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "adaptive_coils"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "railgun",
+        "WS0004": "railgun",
+        "WS0006": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sikr_fraggun",
+        "WS0005": "sikr_fraggun",
+        "WS0007": "sikr_fraggun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "breach",
+        "WS0010": "breach"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sikr_urchin_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

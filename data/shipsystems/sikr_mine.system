@@ -1,0 +1,11 @@
+{
+	"id":"sikr_mine",
+	"type":"WEAPON",
+	"aiType":"MINE_STRIKE",
+	#"aiScript":"data.ai.sikr_supply_ai",
+	
+	"canUseWhileRightClickSystemOn":true,
+	
+	"weaponDataId":"sikr_mine1",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

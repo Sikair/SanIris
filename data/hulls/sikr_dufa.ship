@@ -1,0 +1,130 @@
+{
+  "hullName": "Dufa",
+  "hullId": "sikr_dufa",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sikr_dufa.png",
+  "style": "MIDLINE",
+  "height": 119,
+  "width": 84,
+  "center": [42, 75],
+  "collisionRadius": 82.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 80.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_aegirran"
+  ],
+  "builtInWeapons": {
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [17, -0],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 180,
+      "locations": [-28, -0]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [35, 13],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [35, -13],
+      "renderOrderMod": 10
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [35, 25]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [35, -25]
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 135,
+      "locations": [-30, 40]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -135,
+      "locations": [-30, -40]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-24, 35],
+      "length": 0,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-24, -35],
+      "length": 0,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -17, -19,
+    -25, -34,
+    17, -39,
+    37, -30,
+    43, -0,
+    37, 30,
+    17, 39,
+    -25, 34,
+    -17, 19,
+    -73, -0
+  ]
+}

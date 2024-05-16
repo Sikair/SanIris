@@ -1,0 +1,102 @@
+id,trigger,conditions,script,text,options,notes
+# San-Iris fleet greeting,,,,,,
+sikr_greetingSanIrisFriendly,OpenCommLink,"$faction.id == sikr_saniris
+$faction.friendlyToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Communication verified, greetings. I hope that all is well. May the light of the empress be with you.""
+OR
+""Identity confirmed, how is your journey going? I will pray to the oceans for your fortune.""
+OR
+""Friendly code received, I see that it is you. We hope to see you at the next appearance of the Empress, glory to her name. And a safe journey to you.""",,
+sikr_greetingSanIrisHostileWeaker,OpenCommLink,"$faction.id == sikr_saniris
+$entity.isHostile
+$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"You only see static on the screen.
+OR
+""How can you oppose the bright future that our empress brings!""
+OR
+""Your position has been relayed, we advise you to disengage immediately!"" $heOrShe looks away ""Orders are orders..."".",cutCommLink:Cut the comm link,
+sikr_greetingSanIrisHostileWeakerDefiant,OpenCommLink,"$faction.id == sikr_saniris
+$entity.isHostile
+$entity.relativeStrength < 0
+$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""For I was born and was baptized in the waters, to the waters I shall return"" $heOrShe looks up and cuts off communication.
+OR
+""I will do what I must and what I can to protect the future of my nation, Glory to us!"" 
+The comm shut off.
+OR
+""I do not fear death, for if she embraces me, I will hear the eternal lullaby.""",cutCommLink:Cut the comm link,
+sikr_greetingSanIrisHostileStronger,OpenCommLink,"$faction.id == sikr_saniris
+$entity.isHostile
+$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Our superiority is obvious, whether it is personal or material. Scuttle your ships and you will be recovered. Life in the integration camps is very pleasant from what I have heard.""
+
+The San-Iris $personRank smiles briefly before cutting the communication.
+OR
+""For in water and blood she was born, for in water and blood I follow her, for in water and blood her enemies will perish.""
+
+The comm-line goes black.
+OR
+""So either you break down on our defenses or we track you down, either way your screams will be lost in space. May your soul find its way home.""
+OR
+The comm-line is in sound only, and you hear singing coming from the other side. After a while the radio officer cuts the communication in frustration. ",cutCommLink:Cut the comm link,
+sikr_greetingSanIrisNeutral,OpenCommLink,"$faction.id == sikr_saniris
+$faction.neutralToPlayer","$menuState = fleetConvMain 0
+FireAll PopulateOptions","""Declare your intentions or take distance, no interference will be tolerated"".
+OR
+""If you are looking to join San-Iris to be part of something bigger, head for the nearest port of immigration. Otherwise circulate"".
+OR
+""You can look at the beauty of our ships any way you want, it's not like you'll be able to understand anything. Just don't interfere"".",,
+,,,,,,
+# relationship level descriptions,,,,,,
+sikr_relLevelNeutralSanIris,RelationshipLevelDesc,"$faction.rel == NEUTRAL
+$faction.id == sikr_saniris",,"Even though immigration is closed, San-Iris is friendly and welcoming to visitors, including you.",,
+sikr_relLevelFavorableSanIris,RelationshipLevelDesc,"$faction.rel == FAVORABLE
+$faction.id == sikr_saniris",,"Even though immigration is closed, San-Iris is still interested in people who could prove useful.",,
+sikr_relLevelWelcomingSanIris,RelationshipLevelDesc,"$faction.rel == WELCOMING
+$faction.id == sikr_saniris",,You have gained enough notoriety to get past the isolationist policy of San-Iris and to be welcomed by the locals,,
+sikr_relLevelFriendlySanIris,RelationshipLevelDesc,"$faction.rel == FRIENDLY
+$faction.id == sikr_saniris",,The officials value you and you are used to the customs of San-Iris. You have probably sworn loyalty to the Empress once or twice.,,
+sikr_relLevelCooperativeSanIris,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
+$faction.id == sikr_saniris",,The officials trust you and the empress has offered you the status of a distinguished ally.,,
+sikr_relLevelSuspiciousSanIris,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
+$faction.id == sikr_saniris",,"It seems that San-Iris officials view you negatively, which can happen very easily.",,
+sikr_relLevelInhospitableSanIris,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
+$faction.id == sikr_saniris",,"Although San-Iris sees you negatively, nothing is irreparable and redemption is always possible. That's what they tell you anyway.",,
+sikr_relLevelHostileSanIris,RelationshipLevelDesc,"$faction.rel == HOSTILE
+$faction.id == sikr_saniris",,"By decree, you are an enemy of the empress, which makes you the enemy of the entire population that praises her.",,
+sikr_relLevelVengefulSanIris,RelationshipLevelDesc,"$faction.rel == VENGEFUL
+$faction.id == sikr_saniris",,"During a public appearance, you were personally reported by the empress as an enemy, a madman who cannot understand the blessing of the waters. It would be wise to stay away from any citizen of San-Iris.",,
+,,,,,,
+# commission,,,,,,
+sikr_CMSNTextRejectHostile_default,CMSNTextRejectHostile,$faction.id == sikr_saniris,,"""How can you show your face here? Do you want to be arrested, or is this some kind of redemption?""",,
+sikr_CMSNTextHasOther_default,CMSNTextHasOther,$faction.id == sikr_saniris,,"""You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by $theFaction.""",,
+sikr_CMSNTextUnsuited_default,CMSNTextUnsuited,$faction.id == sikr_saniris,,"""I'm sorry, but you don't meet the criteria set by the Empress for receiving a commission.""",,
+sikr_CMSNTextSuitedPart1_default,CMSNTextSuitedPart1,$faction.id == sikr_saniris,,"""Hmm, yes, you're a suitable candidate.
+
+Accepting a commission is a serious matter. You will be required to fight enemies of $theFaction, wherever they may be found.
+
+You'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.""",,
+sikr_CMSNTextSuitedPart2_default,CMSNTextSuitedPart2,$faction.id == sikr_saniris,,"""So, how about it? Still want to sign on?""",,
+sikr_CMSNTextWelcomePart1_default,CMSNTextWelcomePart1,$faction.id == sikr_saniris,,"""It's a good choice, and I'm sure our faith will help you achieve great goals.""",,
+sikr_CMSNTextWelcomePart2_default,CMSNTextWelcomePart2,$faction.id == sikr_saniris,,"""Anything else I can do for you?""",,
+sikr_CMSNTextChangeMind_default,CMSNTextChangeMind,$faction.id == sikr_saniris,,"""Yes, not everyone has it in them to uphold the values of $theFaction to such a high standard. No shame in it.
+
+Anything else I can do for you?""",,
+sikr_CMSNResignAskToConfirm_default,CMSNResignAskToConfirm,$faction.id == sikr_saniris,,"""Are you sure? $TheFaction needs people it can rely on, and turning your back like this won't be easily forgotten.""",,
+sikr_CMSNResignConfirmed_default,CMSNResignConfirmed,$faction.id == sikr_saniris,,"""I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.""",,
+sikr_CMSNResignCancelled_default,CMSNResignCancelled,$faction.id == sikr_saniris,,"""I see, I'm relieved.""",,
+,,,,,,
+# Trade panel flavor text,,,,,,
+sikr_flavorTextMarketIris,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == sikr_saniris
+$market.id == sikr_iris score:100
+$player.transponderOn == true","AddText ""After very strict procedures. The floating port that welcomes you is far from any major city. Isolated from the rest of the world, with guard ships lurking in the water. Heavy batteries can be seen on the horizon. Officials quickly inspect your ship, then welcome you. The trade center is very lively and fairly unregulated, with the occasional patrol. It seems that as long as you don't leave this place, you can behave like anywhere else."" marketFlavorTextColor",,,
+sikr_flavorTextMarketIrisSneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == sikr_saniris
+$market.id == sikr_iris score:100
+$player.transponderOn == false","AddText ""The ship shakes all over, as you follow a sequence of precise geographic coordinates provided by some black market contact. The maneuvers must be performed within a time limit, all while following a storm of high intensity. All this to avoid the security system of the planet and the frequent patrols. To finally land on a smuggling submarine in the middle of nowhere."" marketFlavorTextColor",,,
+sikr_flavorTextMarketLily,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == sikr_saniris
+$market.id == sikr_lily score:100
+$player.transponderOn == true","AddText ""After identification, the automated procedure guides you to one of the huge city-ships sailing the planet, followed by hundreds of smaller ships of all types. Once docked on one of the platforms, you are greeted by some official who inspects your ship and greets you. Not much traffic normally arrives on the docks of the cities and the population looks on curiously. You are given access to the city, from its markets to its workshops. Statues of the empress can be seen here and there and by looking at the horizon you can sometimes see ships coming in and out of the water."" marketFlavorTextColor",,,
+sikr_flavorTextMarketLilySneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
+$faction.id == sikr_saniris
+$market.id == sikr_lily score:100
+$player.transponderOn == false","AddText ""The ship shakes all over, as you follow a sequence of precise geographic coordinates provided by some black market contact. The maneuvers must be performed within a time limit, all while following a storm of high intensity. All this to avoid the security system of the planet and the frequent patrols. To finally land on a smuggling submarine in the middle of nowhere."" marketFlavorTextColor",,,

@@ -1,0 +1,250 @@
+{
+  "hullName": "Echin",
+  "hullId": "sikr_echin",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sikr_echin.png",
+  "style": "MIDLINE",
+  "height": 176,
+  "width": 164,
+  "center": [82, 112],
+  "collisionRadius": 123.5,
+  "shieldCenter": [-12, -0],
+  "shieldRadius": 107,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_aegirran",
+    "ecm"
+  ],
+  "builtInWeapons": {
+    "SYSTEM": "sikr_logic_emp",
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [35, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 45,
+      "locations": [6, 18]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -45,
+      "locations": [6, -18]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-64, -0]
+    },
+    {
+      "id": "SYSL0",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 45,
+      "locations": [56, 49]
+    },
+    {
+      "id": "SYSR0",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -45,
+      "locations": [56, -49]
+    },
+    {
+      "id": "SYSL1",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 66,
+      "locations": [44, 65]
+    },
+    {
+      "id": "SYSR1",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -66,
+      "locations": [44, -65]
+    },
+    {
+      "id": "SYSL2",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 90,
+      "locations": [19, 70]
+    },
+    {
+      "id": "SYSR2",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -90,
+      "locations": [19, -70]
+    },
+    {
+      "id": "SYSL3",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 128,
+      "locations": [-19, 74]
+    },
+    {
+      "id": "SYSR3",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -128,
+      "locations": [-19, -74]
+    },
+    {
+      "id": "SYSL4",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 140,
+      "locations": [-50, 64]
+    },
+    {
+      "id": "SYSR4",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -140,
+      "locations": [-50, -64]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-27, -0]
+    },
+    {
+      "id": "SYSTEM",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [-10, -0]
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 135,
+      "locations": [-60, 40]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -135,
+      "locations": [-60, -40]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45, 34],
+      "length": 0,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-45, -34],
+      "length": 0,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-58, 27],
+      "length": 0,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-58, -27],
+      "length": 0,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 10,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -53, -15,
+    -60, -29,
+    -47, -36,
+    -31, -31,
+    -32, -46,
+    -16, -38,
+    -11, -58,
+    0, -45,
+    14, -54,
+    48, -21,
+    41, -12,
+    41, 12,
+    48, 21,
+    14, 54,
+    0, 45,
+    -11, 58,
+    -16, 38,
+    -32, 46,
+    -31, 31,
+    -47, 36,
+    -60, 29,
+    -53, 15,
+    -110, -0
+  ]
+}

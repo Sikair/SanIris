@@ -1,0 +1,7 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Aegirran Frame,sikr_mechs,,,San-Iris,"no_special, no_drop_salvage",Special,,,TRUE,,0,0,0,0,data.hullmods.sikr_mechs,"Increase emp resistance by %s, weapon and thruster are %s time sturdier and add %s for damage calculation.",Mech system are sturdier and increased armor.,graphics/hullmods/reinforced_bulkheads.png
+Aegirran Manufacturing,sikr_aegirran,,,San-Iris,"no_special, no_drop_salvage",Special,,,TRUE,,0,0,0,0,data.hullmods.sikr_aegirran_manufacturing,<tooltip created in the script due to lots of highlighting>,"Flux stats lower with hull ,engines are harder to disable, lowers sensor profile.",graphics/hullmods/sikr_aegirran2.png
+Armour Connoisseur,sikr_commission,,,San-Iris,"no_special, no_drop_salvage",Special,,,TRUE,,0,0,0,0,data.hullmods.sikr_commission,"San-Iris crew's experience in operating heavily armoured ships allows them to manoeuvre these ships more efficiently, and to add extra layers of armour to light ships without compromising their speed.
+
+This results in a manoeuvrability and/or armor bonus scaling on base speed.",Increase armor.,graphics/hullmods/sikr_commission.png
+#Chitin Armor,sikr_armor,,,San-Iris,"no_special, no_drop_salvage",Special,,,,,0,0,0,0,data.hullmods.sikr_armor,Increase armor by %s but reduce the armor effectiveness to %s for damage reduction calculation.,"Increase armor, reduces damage reduction by armor.",graphics/hullmods/reinforced_bulkheads.png

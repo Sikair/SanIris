@@ -1,0 +1,134 @@
+{
+  "hullName": "Himin",
+  "hullId": "sikr_himin",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sikr_himin.png",
+  "style": "MIDLINE",
+  "height": 112,
+  "width": 100,
+  "center": [50, 56],
+  "collisionRadius": 68.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 64,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_aegirran"
+  ],
+  "builtInWeapons": {
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [25, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 45,
+      "locations": [9, 24]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -45,
+      "locations": [9, -24]
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": 135,
+      "locations": [-26.5, 29]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 180,
+      "angle": -135,
+      "locations": [-26.5, -29]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": 35,
+      "locations": [13, 40]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 15,
+      "angle": -35,
+      "locations": [13, -40]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-17, 34],
+      "length": 0,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-17, -34],
+      "length": 0,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-22, 20],
+      "length": 0,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-22, -20],
+      "length": 0,
+      "width": 10,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -24, -10,
+    -16, -36,
+    8, -45,
+    53, -0,
+    8, 45,
+    -16, 36,
+    -24, 10,
+    -51, -0
+  ]
+}

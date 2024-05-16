@@ -1,0 +1,60 @@
+{
+  "hullName": "Jorm",
+  "hullId": "sikr_jorm",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/sikr_jorm.png",
+  "style": "MIDLINE",
+  "height": 41,
+  "width": 40,
+  "center": [20, 20.5],
+  "collisionRadius": 30.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 26.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 35,
+      "locations": [-3.5, 10]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -35,
+      "locations": [-3.5, -10]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-16.5, 8],
+      "length": 7.5,
+      "width": 5,
+      "angle": 180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-16.5, -8],
+      "length": 7.5,
+      "width": 5,
+      "angle": -180,
+      "contrailSize": 5,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -6.5, -18,
+    21, -0,
+    -6.5, 18,
+    -18.5, -0
+  ]
+}

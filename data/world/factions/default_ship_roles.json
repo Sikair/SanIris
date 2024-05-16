@@ -1,0 +1,159 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+            "sikr_dufa_breaker":2,
+            "sikr_dufa_assault":4,
+			"sikr_dufa_standard":3,
+
+            "sikr_himin_pd":2,
+            "sikr_himin_assault":2,
+			
+			"sikr_lehal_torpedo":1,
+			"sikr_lehal_standard":1,
+			
+			"sikr_vine_standard":1,
+			"sikr_vine_assault":1,
+	},
+	"combatSmall":{
+            "sikr_dufa_breaker":2,
+            "sikr_dufa_assault":4,
+			"sikr_dufa_standard":3,
+
+            "sikr_himin_pd":3,
+            "sikr_himin_assault":3,
+			"sikr_himin_pressure":3,
+			"sikr_himin_disrupt":2,
+			
+			"sikr_lehal_torpedo":1,
+			"sikr_lehal_disrupt":1,
+			"sikr_lehal_standard":1,
+			
+			"sikr_vine_standard":1,
+			"sikr_vine_assault":1,
+			
+			"sikr_nuyre_assault":2,
+			
+			"sikr_echin_escort":2,
+	},
+	"combatMedium":{	
+            "sikr_bara_breaker":3,
+			"sikr_bara_pressure":3,
+			"sikr_bara_standard":3,
+
+            "sikr_echin_assault":2,
+			"sikr_echin_escort":2,
+			"sikr_echin_support":2,
+			
+			"sikr_nuyre_ranged":2,
+	},
+	"combatLarge":{
+			"sikr_echin_support":2,
+		
+			"sikr_veko_artillery":3,
+			"sikr_veko_strike":3,
+			"sikr_veko_standard":3,
+	
+            "sikr_unnr_artillery":1,
+			"sikr_unnr_anchor":2,
+			"sikr_unnr_escort":1,
+			
+			"sikr_leviathan_def_standard":2,
+	},
+	"combatCapital":{
+            "sikr_leviathan_def_assault":5,
+			"sikr_leviathan_def_breaker":5,
+			"sikr_leviathan_def_standard":5,
+			
+			"sikr_leviathan_off_breaker":4,
+			"sikr_leviathan_off_assault":4,
+			"sikr_leviathan_off_standard":4,
+	},
+	
+	
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+	},
+	"combatFreighterMedium":{
+	},
+	"combatFreighterLarge":{
+	},
+	
+	"civilianRandom":{
+	},
+
+	# carriers
+	"carrierSmall":{
+	},
+	"carrierMedium":{	
+			"sikr_shion_assault":3,
+			"sikr_shion_escort":3,
+			"sikr_shion_standard":3,
+	},
+	"carrierLarge":{
+            "sikr_manta_standard":4,
+			"sikr_manta_medium":3,
+			"sikr_manta_heavy":3,
+	},
+
+	# phase ships
+	"phaseSmall":{
+	},
+	"phaseMedium":{
+			"sikr_nuyre_assault":2,
+			"sikr_nuyre_ranged":2,
+	},
+	"phaseLarge":{
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+			"sikr_pond_standard":1,
+	},
+	"freighterMedium":{
+            "sikr_marus_transport":1,
+			"sikr_marus_standard":1,
+	},
+	"freighterLarge":{
+			"sikr_ocean_standard":3,
+	},
+	
+	"tankerSmall":{
+	},
+	"tankerMedium":{
+	},
+	"tankerLarge":{
+	},
+	
+	"personnelSmall":{
+	},
+	"personnelMedium":{
+	},
+	"personnelLarge":{
+	},
+	
+	"linerSmall":{
+	},
+	"linerMedium":{
+	},
+	"linerLarge":{
+	},
+	
+	# utility ships
+	"tug":{
+	},
+	"crig":{
+	},
+	"utility":{
+            "sikr_marus_transport":1,
+			"sikr_marus_standard":1,
+	},
+	
+	"orbitalStationLowTech":{
+	},
+	
+	"battlestationLowTech":{
+	},
+}

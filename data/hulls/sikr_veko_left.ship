@@ -1,0 +1,42 @@
+{
+  "hullName": "Missile Horn",
+  "hullId": "sikr_veko_left",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/armor/sikr_veko_left.png",
+  "style": "MIDLINE",
+  "height": 59,
+  "width": 87,
+  "center": [50, 20],
+  "collisionRadius": 51,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 49.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "always_detaches",
+    "reduced_explosion"
+  ],
+  "builtInWeapons": {
+    "WS0001": "sikr_veko_bi"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 8,
+      "locations": [15, 3]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -2, -29,
+    36, -34,
+    23, -20,
+    11, 35,
+    16, 41,
+    -6, 47,
+    -17, 29
+  ]
+}

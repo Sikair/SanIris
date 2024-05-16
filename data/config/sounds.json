@@ -1,0 +1,78 @@
+{        
+	
+	"sikr_multishot_fire":[
+            {"file":"sounds/sfx_wpn/sikr_multishot_fire1.ogg","pitch":1.00, "volume":0.5},
+			{"file":"sounds/sfx_wpn/sikr_multishot_fire2.ogg","pitch":1.00, "volume":0.5},
+	],
+	
+	"sikr_multishot_fire_fighter":[
+            {"file":"sounds/sfx_wpn/sikr_multishot_fire1.ogg","pitch":1.00, "volume":0.3},
+			{"file":"sounds/sfx_wpn/sikr_multishot_fire2.ogg","pitch":1.00, "volume":0.3},
+	],
+
+	"music":{
+	####################################
+	# "source" can also be a directory #
+	####################################
+	"sikr_market_neutral":[
+		{
+			"source":"sounds/music",
+			"volume":0.9,
+			"files":[
+				"SanIris_Mar_Neutral.ogg",
+			],
+			"randomStart":false, 
+		},
+	],
+	"sikr_market_hostile":[
+		{
+			"source":"sounds/music",
+			"volume":0.9,
+			"files":[
+				"SanIris_Mar_Hostile.ogg",
+			],
+			"randomStart":false, 
+		},
+	],
+	"sikr_market_friendly":[
+		{
+			"source":"sounds/music",
+			"volume":0.9,
+			"files":[
+				"SanIris_Mar_Friendly.ogg",
+			],
+			"randomStart":false, 
+		},
+	],
+	"sikr_encounter_neutral":[
+		{
+			"source":"sounds/music",
+			"volume":0.8,
+			"files":[
+				"SanIris_Enc_Neutral.ogg",
+			],
+			"randomStart":false, 
+		},
+	],
+	"sikr_encounter_hostile":[
+		{
+			"source":"sounds/music",
+			"volume":0.8,
+			"files":[
+				"SanIris_Enc_Friendly.ogg",
+			],
+			"randomStart":false, 
+		},
+	],
+	"sikr_encounter_friendly":[
+		{
+			"source":"sounds/music",
+			"volume":0.8,
+			"files":[
+				"SanIris_Enc_Hostile.ogg",
+			],
+			"randomStart":false, 
+		},
+	],
+        }
+}

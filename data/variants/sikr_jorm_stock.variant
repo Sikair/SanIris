@@ -1,0 +1,29 @@
+{
+  "variantId": "sikr_jorm_stock",
+  "hullId": "sikr_jorm",
+  "displayName": "Heavy Interceptor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sikr_jorm_left"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sikr_jorm_right"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

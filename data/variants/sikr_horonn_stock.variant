@@ -1,0 +1,43 @@
+{
+  "variantId": "sikr_horonn_stock",
+  "hullId": "sikr_horonn",
+  "displayName": "Medium",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "sikr_horonn_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ARM_R": "sikr_mech_sniper_R"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ARM_L": "sikr_mech_sniper"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "PAULDRON_L": "sikr_horonn_pauldronL"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

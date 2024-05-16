@@ -1,0 +1,61 @@
+{
+  "hullName": "Paladin Horn",
+  "hullId": "sikr_leviathan_defense",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/armor/sikr_leviathan_defense.png",
+  "style": "MIDLINE",
+  "height": 106,
+  "width": 390,
+  "center": [195, 73],
+  "collisionRadius": 216,
+  "shieldCenter": [-20, 0],
+  "shieldRadius": 207.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "reduced_explosion",
+    "always_detaches"
+  ],
+  "builtInWeapons": {
+    "WS0001": "sikr_defense_horn_logic"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [19, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -37, -43,
+    -43, -61,
+    -69, -74,
+    -39, -79,
+    -6, -146,
+    -7, -180,
+    -13, -183,
+    22, -194,
+    29, -186,
+    17, -163,
+    13, -121,
+    16, -59,
+    29, -0,
+    16, 59,
+    13, 121,
+    17, 163,
+    29, 186,
+    22, 194,
+    -13, 183,
+    -7, 180,
+    -6, 146,
+    -39, 79,
+    -69, 74,
+    -43, 61,
+    -37, 43,
+    -42, -0
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "variantId": "sikr_kolga_stock",
+  "hullId": "sikr_kolga",
+  "displayName": "Light",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "sikr_kolga_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ARM_R": "sikr_mech_multishot"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ARM_L": "sikr_mech_assault"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,184 @@
+{
+  "hullName": "Marus",
+  "hullId": "sikr_marus",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sikr_marus.png",
+  "style": "MIDLINE",
+  "height": 294,
+  "width": 172,
+  "center": [86, 188],
+  "collisionRadius": 207.5,
+  "shieldCenter": [-25, -0],
+  "shieldRadius": 172,
+  "viewOffset": 0,
+  "builtInMods": [
+    "hiressensors",
+    "repair_gantry",
+    "surveying_equipment",
+    "sikr_aegirran",
+    "high_maintenance"
+  ],
+  "builtInWeapons": {
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -36.5, 22,
+        -37, -22
+      ]
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 135,
+      "locations": [-119, 42]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -135,
+      "locations": [-119, -42]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": -15,
+      "locations": [33, -28]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 120,
+      "angle": 15,
+      "locations": [33, 28]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-124, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-99, 51],
+      "length": 4,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-99, -50],
+      "length": 4,
+      "width": 11,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-111, -33],
+      "length": 0,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-111, 33],
+      "length": 0,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-130, -28],
+      "length": 0,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-130, 28],
+      "length": 0,
+      "width": 16,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -182, -14,
+    -174, -19,
+    -158, -19,
+    -148, -10,
+    -126, -18,
+    -129, -29,
+    -106, -20,
+    -110, -35,
+    -92, -30,
+    -98, -51,
+    -72, -37,
+    -47, -58,
+    20, -60,
+    33, -43,
+    42, -53,
+    14, -75,
+    103, -84,
+    105, -78,
+    69, -68,
+    64, -25,
+    75, -12,
+    75, 12,
+    64, 25,
+    69, 68,
+    105, 78,
+    103, 84,
+    14, 75,
+    42, 53,
+    33, 43,
+    20, 60,
+    -47, 58,
+    -72, 37,
+    -98, 51,
+    -92, 30,
+    -110, 35,
+    -106, 20,
+    -129, 29,
+    -126, 18,
+    -148, 10,
+    -158, 19,
+    -174, 19,
+    -182, 14
+  ]
+}

@@ -1,0 +1,9 @@
+{
+	"id":"sikr_supply",
+	"type":"WEAPON",
+	"aiType":"CUSTOM",
+	"aiScript":"data.ai.sikr_supply_ai",
+	
+	"weaponDataId":"sikr_supply_system",
+	"outOfUsesSound":"gun_out_of_ammo",
+}

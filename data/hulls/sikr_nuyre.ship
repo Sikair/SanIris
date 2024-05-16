@@ -1,0 +1,199 @@
+{
+  "hullName": "Nuyre",
+  "hullId": "sikr_nuyre",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sikr_nuyre.png",
+  "style": "MIDLINE",
+  "height": 285,
+  "width": 102,
+  "center": [51, 140],
+  "collisionRadius": 150.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 147,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_aegirran",
+    "phasefield"
+  ],
+  "builtInWeapons": {
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [61, -0]
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 144,
+      "locations": [-67, 39]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -144,
+      "locations": [-67, -39]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-20, -21]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 65,
+      "locations": [45, 10],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -65,
+      "locations": [45, -10],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 65,
+      "locations": [24, 13],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -65,
+      "locations": [24, -13],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": 65,
+      "locations": [-3, 22]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 180,
+      "angle": -65,
+      "locations": [-3, -22]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 0,
+      "locations": [-13, -0]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": 15,
+      "locations": [-24, 36]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 75,
+      "angle": -15,
+      "locations": [-24, -36]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-54, 34],
+      "length": 0,
+      "width": 13,
+      "angle": 135,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-54, -34],
+      "length": 0,
+      "width": 13,
+      "angle": -135,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-74, 30],
+      "length": 0,
+      "width": 13,
+      "angle": 135,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-74, -30],
+      "length": 0,
+      "width": 13,
+      "angle": -135,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -72, -13,
+    -74, -33,
+    -53, -21,
+    -54, -35,
+    -38, -27,
+    -45, -49,
+    142, -0,
+    -45, 49,
+    -38, 27,
+    -54, 35,
+    -53, 21,
+    -74, 33,
+    -72, 13,
+    -138, -0
+  ]
+}

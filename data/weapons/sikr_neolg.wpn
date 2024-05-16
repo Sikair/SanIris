@@ -1,0 +1,47 @@
+{
+  "id": "sikr_neolg",
+  "specClass": "projectile",
+  "projectileSpecId": "sikr_neolg_shot",
+  "type": "BALLISTIC",
+  "size": "LARGE",
+  "displayArcRadius": 600,
+  "turretSprite": "graphics/weapons/sikr_neolg_t.png",
+  "turretGunSprite": "graphics/weapons/sikr_neolg_t_gun.png",
+  "hardpointSprite": "graphics/weapons/sikr_neolg_h.png",
+  "hardpointGunSprite": "graphics/weapons/sikr_neolg_h_gun.png",
+  "visualRecoil": 10,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    43,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    42.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 65,
+    "spread": 15,
+    "particleSizeMin": 10,
+    "particleSizeRange": 35,
+    "particleDuration": 0.75,
+    "particleCount": 50,
+    "particleColor": [
+      255,
+      120,
+      50,
+      245
+    ]
+  },
+  "fireSoundTwo": "hellbore_fire"
+}

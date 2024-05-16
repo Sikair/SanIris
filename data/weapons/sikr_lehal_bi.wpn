@@ -1,0 +1,60 @@
+{
+  "id": "sikr_lehal_bi",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect":"data.scripts.weapons.sikr_lehal_plugin",
+  "everyFrameEffect":"data.scripts.weapons.sikr_lehal_plugin",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/sikr_lehal_bi.png",
+  "hardpointSprite": "graphics/weapons/sikr_lehal_bi.png",
+  "glowColor": [
+    255,
+    155,
+    155,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    22.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    35,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    255,
+    0,
+    0,
+    175
+  ],
+  "coreColor": [
+    255,
+    155,
+    155,
+    255
+  ],
+  "width": 27,
+  "textureType": [
+    "graphics/fx/beam_weave_core.png",
+    "graphics/fx/beamcorec.png"
+  ],
+  "textureScrollSpeed": -92,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER
+  ],
+  "fireSoundOne": "laser_intro",
+  "fireSoundTwo": "laser_loop"
+}

@@ -1,0 +1,344 @@
+{
+	id:"sikr_saniris",
+	#purple
+	#"color":[200,0,165,255],
+	#"baseUIColor":[220,0,175,255],
+	#"darkUIColor":[120,0,105,175],
+	#"gridUIColor":[220,0,175,75],
+	#"brightUIColor":[220,45,185,255],
+	
+	#yellow
+	"color":[235,200,30,255],
+	"baseUIColor":[255,210,40,255],
+	"darkUIColor":[150,140,0,175],
+	"gridUIColor":[255,210,40,75],
+	"brightUIColor":[255,240,50,255],
+	"secondaryUIColor":[200,0,165,255],
+    "secondarySegments":6,
+
+	"displayName":"San-Iris",
+	"logo":"graphics/factions/sikr_saniris_flag.png",
+	"crest":"graphics/factions/sikr_saniris_crest.png",
+	"displayNameWithArticle":"the San-Iris Federation",
+	"displayNameLong":"San-Iris Federation",
+    "displayNameLongWithArticle":"The San-Iris Federation",
+    "personNamePrefixAOrAn":"an",
+    "displayNameIsOrAre":"are",
+	
+	"shipNamePrefix":"SIDN",
+	"shipNameSources":{
+		"BRITISH_NAVY":1, 
+		"ROMAN":1,
+		"GREEK":1,
+		"EGYPTIAN":1,
+		"GENERAL":1,
+	},
+	"names":{
+		"old english":1,
+		"world":1,
+		"myth":1,
+	},
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"sikr_dufa":1,
+			"sikr_bara":1,
+			"sikr_echin":0.7,
+			"sikr_himin":1,
+			"sikr_leviathan_def":1,
+			"sikr_leviathan_off":0.8,
+			"sikr_manta":1,
+			"sikr_shion":1,
+			"sikr_marus":0.8,
+			"sikr_veko":1,
+			"sikr_nuyre":1,
+			"sikr_unnr":0.7,
+			"sikr_lehal":0.7,
+			"sikr_ocean":1,
+			"sikr_vine":0.7,
+			"sikr_pond":0.8
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"tags":[sikr_ar_bp],
+		"hulls":[
+			"sikr_dufa",
+			"sikr_bara",
+			"sikr_echin",
+			"sikr_himin",
+			"sikr_leviathan_def",
+			"sikr_leviathan_off",
+			"sikr_manta",
+			"sikr_shion",
+			"sikr_nuyre",
+			"sikr_marus",
+			"sikr_veko",
+			"sikr_unnr",
+			"sikr_lehal",
+			"sikr_ocean",
+			"sikr_vine",
+			"sikr_pond"
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			"atlas",
+			"phaeton",
+			"sikr_dufa",
+			"sikr_bara",
+			"sikr_echin",
+			"sikr_himin",
+			"sikr_leviathan_def",
+			"sikr_leviathan_off",
+			"sikr_manta",
+			"sikr_shion",
+			"sikr_marus",
+			"sikr_veko",
+			"sikr_nuyre",
+			"sikr_unnr",
+			"sikr_lehal",
+			"sikr_ocean",
+			"sikr_vine",
+			"sikr_pond"
+		],
+	},
+	"knownFighters":{
+		"tags":[],
+		"fighters":[
+			"sikr_jorm_wing",
+			"sikr_kolga_wing",
+			"sikr_horonn_wing",
+			"sikr_hefring_wing",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+			"sikr_jorm_wing",
+			"sikr_kolga_wing",
+			"sikr_horonn_wing",
+			"sikr_hefring_wing",
+		],
+	},
+	"knownWeapons":{
+		"tags":["base_bp", "lowtech_bp", "missile_bp", "sikr_arw_bp"],
+		"weapons":[
+			"lightneedler",
+			"railgun",
+			"flak",
+			"ionbeam",
+			"dualflak",
+			"heavymauler",
+			"hveldriver",
+			"heavyneedler",
+			"breachpod",
+			"sabotpod",
+			"harpoonpod",
+			"hurricane",
+			"pilum",
+			"locust",
+			"vulcan",
+			"sikr_arti_launcher",
+			"sikr_arti_battery",
+			"sikr_spear_launcher",
+			#"sikr_rhodophyta",
+			"sikr_neolg",
+			"sikr_urchin",
+			"sikr_urchin_small",
+			"sikr_cluster",
+			"sikr_multishot",
+			"sikr_multishot_heavy",
+			"sikr_fraggun",
+			"sikr_fraggun_heavy",
+			"sikr_ornnhal",
+			"sikr_ogmos"
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+			"flak",
+			"heavymauler",
+			"hveldriver",
+			"sikr_arti_launcher",
+			"sikr_arti_battery",
+			"sikr_spear_launcher",
+			#"sikr_rhodophyta",
+			"sikr_neolg",
+			"sikr_urchin",
+			"sikr_urchin_small",
+			"sikr_cluster",
+			"sikr_multishot",
+			"sikr_multishot_heavy",
+			"sikr_fraggun",
+			"sikr_fraggun_heavy",
+			"sikr_ornnhal",
+			"vulcan",
+		],
+	},
+	"knownHullMods":{
+		"tags":["base_bp"],
+		"hullMods":[
+			"advancedshieldemitter", # accelerated
+			"turretgyros",
+			"armoredweapons",
+			"augmentedengines",
+			"autorepair",
+			"converted_hangar",
+			"eccm",
+			"ecm",
+			"expanded_deck_crew",
+			"magazines",
+			"missleracks",
+			"extendedshieldemitter",
+			"frontemitter",
+			"hardenedshieldemitter",
+			"heavyarmor",
+			"pointdefenseai",
+			"targetingunit",
+			"nav_relay",
+			"adaptiveshields", # omni
+			"operations_center",
+			"recovery_shuttles",
+			"fluxbreakers",
+			"stabilizedshieldemitter",
+			"surveying_equipment",
+			"hiressensors",
+			"efficiency_overhaul",
+			"advancedoptics"
+		],
+	},
+	"factionDoctrine":{
+		"warships":4,
+		"carriers":2,
+		"phaseShips":1,
+		
+		"officerQuality":2,
+		"shipQuality":3,
+		"numShips":2,
+		
+		"shipSize":4,
+		
+		"aggression":2,
+		
+		"combatFreighterProbability":0.1,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+		
+		"commanderSkillsShuffleProbability":0,
+		"commanderSkills":[
+			"coordinated_maneuvers",
+			"crew_training",
+		],
+	},
+	"illegalCommodities":[
+		"drugs",
+		"organs",
+		"hand_weapons",
+		"ai_cores"
+	],
+	"music":{
+		"theme":"sikr_market_neutral",
+		"market_neutral":"sikr_market_neutral",
+		"market_hostile":"sikr_market_hostile",
+		"market_friendly":"sikr_market_friendly",
+		"encounter_neutral":"sikr_encounter_neutral",
+		"encounter_hostile":"sikr_encounter_hostile",
+		"encounter_friendly":"sikr_encounter_friendly",
+	},
+	"internalComms":"sindrian_diktat_internal",
+	"portraits":{
+		"standard_male":[
+			"graphics/portraits/portrait_mercenary01.png",
+			"graphics/portraits/portrait_mercenary03.png",
+			"graphics/portraits/portrait_mercenary04.png",
+			"graphics/portraits/portrait12.png",
+			"graphics/portraits/portrait13.png",
+			"graphics/portraits/portrait15.png",
+			"graphics/portraits/portrait23.png",
+			"graphics/portraits/portrait33.png",
+			"graphics/portraits/portrait35.png",
+			"graphics/portraits/portrait38.png",
+		],
+		"standard_female":[
+			"graphics/portraits/portrait_mercenary02.png",
+			"graphics/portraits/portrait_mercenary08.png",
+			"graphics/portraits/portrait16.png",
+			"graphics/portraits/portrait21.png",
+			"graphics/portraits/portrait22.png",
+			"graphics/portraits/portrait28.png",
+			"graphics/portraits/portrait29.png",
+			"graphics/portraits/portrait34.png",
+			"graphics/portraits/portrait37.png",
+		],
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,
+			"official":5,
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":10,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+		},
+	},	
+	"custom":{
+		"offersCommissions":true,
+		"engagesInHostilities":false,
+		"buysAICores":true,
+		"AICoreValueMult":2,
+		"AICoreRepMult":0.8,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":true,
+		#"makesPirateBases":true, # testing
+		"punitiveExpeditionData":{
+			"vsCompetitors":true,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+	},	
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Eternal Empress"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Eternal Empress"},
+		},
+	},
+	"fleetTypeNames":{
+		"trade":"Mercantile Convoy",
+		"tradeLiner":"Liner Convoy",
+		"smallTrader":"Trader",
+		
+		"patrolSmall":"Fast Picket",
+		"patrolMedium":"Guard",
+		"patrolLarge":"Holy Knight",
+		
+		"inspectionFleet":"Order Inspection Fleet",
+		"taskForce":"Task Force",
+		
+		"foodReliefFleet":"Relief Convoy",
+	},
+},
+
+

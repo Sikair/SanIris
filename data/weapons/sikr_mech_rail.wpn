@@ -1,0 +1,47 @@
+{
+  "id": "sikr_mech_rail",
+  "specClass": "projectile",
+  "projectileSpecId": "lightmg_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/ships/fighters/mech/sikr_mech_rail.png",
+  "turretGunSprite": "graphics/ships/fighters/mech/sikr_mech_rail_gun.png",
+  "hardpointSprite": "",
+  "specialWeaponGlowHeight": 10,
+  "specialWeaponGlowWidth": 4,
+  "visualRecoil": 6,
+  "renderHints":["RENDER_BARREL_BELOW"],
+  "turretOffsets": [
+    22,
+    -9
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "interruptibleBurst": true,
+  "muzzleFlashSpec": {
+    "length": 120,
+    "spread": 2,
+    "particleSizeMin": 16,
+    "particleSizeRange": 26,
+    "particleDuration": 0.3,
+    "particleCount": 33,
+    "particleColor": [
+      255,
+      220,
+      100,
+      200
+    ]
+  },
+  "fireSoundTwo": "light_machinegun_fire"
+}

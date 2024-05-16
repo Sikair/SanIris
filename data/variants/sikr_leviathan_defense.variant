@@ -1,0 +1,24 @@
+{
+  "variantId": "sikr_leviathan_defense",
+  "hullId": "sikr_leviathan_def",
+  "displayName": "Defense",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [
+    {
+      "HORN": "sikr_leviathan_defense_armor"
+    }
+  ],
+  "wings": []
+}

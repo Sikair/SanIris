@@ -1,0 +1,48 @@
+{
+  "id": "sikr_multishot_stage2",
+  "specClass": "projectile",
+  "projectileSpecId": "sikr_multishot_shot",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/weapons/sikr_multishot_turret_base.png",
+  "turretGunSprite": "graphics/weapons/sikr_multishot_turret_gun.png",
+  "hardpointSprite": "graphics/weapons/sikr_multishot_hardpoint_base.png",
+  "hardpointGunSprite": "graphics/weapons/sikr_multishot_hardpoint_gun.png",
+  "visualRecoil": 5,
+  "renderHints": [
+    "RENDER_BARREL_BELOW"
+  ],
+  "turretOffsets": [
+    10,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "interruptibleBurst": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 6,
+    "particleSizeMin": 6,
+    "particleSizeRange": 8,
+    "particleDuration": 0.15,
+    "particleCount": 7,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "sikr_multishot_fire"
+}

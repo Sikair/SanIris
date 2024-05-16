@@ -1,0 +1,187 @@
+{
+  "hullName": "Unnr",
+  "hullId": "sikr_unnr",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sikr_unnr.png",
+  "style": "MIDLINE",
+  "height": 200,
+  "width": 164,
+  "center": [82, 128],
+  "collisionRadius": 133,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 130,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_aegirran"
+  ],
+  "builtInWeapons": {
+    "SYSTE": "sikr_logic_unnr_system",
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 180,
+      "locations": [-87, -0]
+    },
+    {
+      "id": "ARMOR",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [28, -0],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 144,
+      "locations": [-69.5, 44]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -144,
+      "locations": [-69.5, -44]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 40,
+      "locations": [-2, 36]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -40,
+      "locations": [-2, -36]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -22.5, 22.5,
+        -22.5, -21.5
+      ]
+    },
+    {
+      "id": "SYSTE",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [66, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-65, 34],
+      "length": 0,
+      "width": 16,
+      "angle": 138,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-65, -34],
+      "length": 0,
+      "width": 16,
+      "angle": -138,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-84, 28],
+      "length": 0,
+      "width": 16,
+      "angle": 128.5,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-84, -28],
+      "length": 0,
+      "width": 16,
+      "angle": -128.5,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-52, 52],
+      "length": 4.949748,
+      "width": 9.899495,
+      "angle": 135,
+      "contrailSize": 9.899495,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-52, -52],
+      "length": 4.949748,
+      "width": 9.899495,
+      "angle": -135,
+      "contrailSize": 9.899495,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -81, -18,
+    -82, -32,
+    -63, -21,
+    -66, -36,
+    -45, -28,
+    -54, -50,
+    -36, -39,
+    -13, -57,
+    -7, -74,
+    5, -71,
+    28, -80,
+    42, -71,
+    41, -50,
+    63, -17,
+    63, 17,
+    41, 50,
+    42, 71,
+    28, 80,
+    5, 71,
+    -7, 74,
+    -13, 57,
+    -36, 39,
+    -54, 50,
+    -45, 28,
+    -66, 36,
+    -63, 21,
+    -82, 32,
+    -81, 18,
+    -124, -0
+  ]
+}

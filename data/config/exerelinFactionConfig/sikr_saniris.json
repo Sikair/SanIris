@@ -1,0 +1,73 @@
+{
+    "playableFaction":true,
+    "corvusCompatible":true,
+    
+    "rebelFleetSuffix":"Traitor",
+    
+    "directoryUseShortName":true,
+    
+    "marketSpawnWeight":0.5,
+     
+    "startRelationships":{ 
+		"hegemony":0.25, 
+		"luddic_church":0.5, 
+		"luddic_path":-0.6, 
+		"sindrian_diktat":0.2,
+		},
+    #"maxRelationships":{ "luddic_church":-0.1, "luddic_path":-0.4 },
+    #"diplomacyPositiveChance":{ "luddic_church":0.8, "luddic_path":0.4 },
+    #"diplomacyNegativeChance":{ "luddic_church":1.2, "luddic_path":2.0 },
+	
+    "morality":"neutral",
+    
+    "alignments":{
+        "corporate":0.1,
+        "technocratic":0.3,
+        "militarist":0.8,
+		"diplomatic":0.2,
+		"ideological":0.8
+    },
+    "diplomacyTraits":["stalwart", "neutralist", "lowprofile"],
+        
+    "colonyExpeditionChance":0.05,	
+    "colonyTargetValuator":"exerelin.campaign.colony.IndustrialColonyTargetValuator",
+ 
+	"startShipsSolo":[
+        ["sikr_vine_assault"],
+    ],
+ 
+    "startShipsCombatSmall":[
+      ["sikr_bara_breaker", "sikr_himin_pressure", "sikr_lehal_torpedo"],
+    ],
+    "startShipsCombatLarge":[
+      ["sikr_veko_standard", "sikr_shion_assault", "sikr_himin_pd", "sikr_dufa_breaker"],
+    ],
+    #"startShipsExplorerLarge":[
+    #  ["sikr_marus_transport", "sikr_bara_pressure", "sikr_shion_assault"],
+    #],
+    "startShipsCarrierSmall":[["sikr_shion_assault", "sikr_himin_pd", "sikr_lehal_disrupt"]],
+    "startShipsCarrierLarge":[["sikr_manta_medium", "sikr_himin_pressure", "sikr_dufa_assault"]],
+    #"startShipsSuper":[["sikr_nuyre_assault"]],
+    
+    "startSpecialItems":[
+        [["sikr_ar_package", ""]],
+		[["sikr_arc_package", ""]],
+		[["sikr_arw_package", ""]],
+    ],
+    
+    "defenceStations":[
+        {"ids":["orbitalstation_high", "battlestation_high", "starfortress_high"]},
+    ],
+    
+    "industrySeeds":[
+        {"id":"orbitalworks", "mult":0.1},
+        {"id":"lightindustry", "mult":0.1},
+		{"id":"militarybase", "mult":0.3},
+    ],
+    
+    "bonusSeeds":[
+        {"id":"aiCore_station", "count":2, "mult":0.2},
+        {"id":"aiCore_military", "mult":0.4},
+        {"id":"aiCore_any", "mult":1.5},
+    ],
+}

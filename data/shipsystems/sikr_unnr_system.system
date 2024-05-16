@@ -1,0 +1,17 @@
+{
+	"id":"sikr_unnr_system",
+	"type":"STAT_MOD",
+	#"aiType":"HIGH_ENERGY_FOCUS",
+	"aiType":"CUSTOM",
+	"aiScript":"data.ai.sikr_unnr_ai",
+	
+	"statsScript":"data.shipsystems.scripts.sikr_unnr_system",
+	
+	"weaponTypes":[ENERGY],
+	
+	"useSound":"shield_raise",
+	"deactivateSound":"system_high_energy_focus_deactivate",
+	
+	"outOfUsesSound":"gun_out_of_ammo",
+	"loopSound":"system_fortress_shield_loop",	
+}

@@ -1,0 +1,16 @@
+{
+	"id":"sikr_veko_shot",
+	"specClass":"missile",	
+	"missileType":"MISSILE",
+	"sprite":"graphics/missiles/sikr_nothing.png",
+	"size":[4,7],	
+	"center":[2,3.5],
+	"collisionRadius":10,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,0,210,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":60, # purely visual
+	"engineSpec":{"turnAcc":720,
+				  "turnRate":200,
+				  "acc":1000,
+				  "dec":1000},				  
+}

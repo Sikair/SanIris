@@ -1,0 +1,112 @@
+{
+  "hullName": "Lehal",
+  "hullId": "sikr_lehal",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/sikr_lehal.png",
+  "style": "MIDLINE",
+  "height": 136,
+  "width": 74,
+  "center": [37, 80],
+  "collisionRadius": 91.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 75,
+  "viewOffset": 0,
+  "builtInMods": [
+    "missleracks",
+    "sikr_aegirran"
+  ],
+  "builtInWeapons": {
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster",
+    "WS0001": "sikr_lehal_bi"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [34, -13]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 45,
+      "locations": [17, 17]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [6, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 180,
+      "locations": [-32, -0]
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 145,
+      "locations": [-31, 33]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -145,
+      "locations": [-31, -33]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31, 32],
+      "length": 0,
+      "width": 12,
+      "angle": 135,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-31, -32],
+      "length": 0,
+      "width": 12,
+      "angle": -135,
+      "contrailSize": 7,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -23, -18,
+    -31, -33,
+    -12, -25,
+    21, -32,
+    50, -13,
+    40, 13,
+    19, 27,
+    -12, 25,
+    -31, 33,
+    -23, 18,
+    -77, -0
+  ]
+}

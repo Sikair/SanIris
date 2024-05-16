@@ -1,0 +1,42 @@
+{
+  "id": "sikr_mech_multishot",
+  "specClass": "projectile",
+  "projectileSpecId": "sikr_multishot_base",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/ships/fighters/mech/sikr_mech_multishot.png",
+  "hardpointSprite": "graphics/ships/fighters/mech/sikr_mech_multishot.png",
+  "turretOffsets": [
+    21,
+    -10
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "MUZZLE_FLASH",
+  "interruptibleBurst": true,
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 16,
+    "particleSizeMin": 10,
+    "particleSizeRange": 10,
+    "particleDuration": 0.25,
+    "particleCount": 14,
+    "particleColor": [
+      255,
+      240,
+      165,
+      200
+    ]
+  },
+  "fireSoundTwo": "sikr_multishot_fire_fighter"
+}

@@ -1,0 +1,44 @@
+{
+  "variantId": "sikr_unnr_anchor",
+  "hullId": "sikr_unnr",
+  "displayName": "Anchor",
+  "goalVariant": true,
+  "fluxCapacitors": 15,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sikr_arti_launcher"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sikr_urchin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sikr_urchin_small"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "ARMOR": "sikr_unnr_armor_standard"
+    }
+  ],
+  "wings": [
+    "sikr_horonn_wing"
+  ]
+}

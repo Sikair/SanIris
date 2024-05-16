@@ -1,0 +1,82 @@
+{
+  "id": "sikr_veko_bi",
+  "specClass": "projectile",
+  "projectileSpecId": "sikr_veko_shot",
+  "type": "MISSILE",
+  "size": "MEDIUM",
+  "displayArcRadius": 500,
+  "turretSprite": "graphics/weapons/sikr_nothing.png",
+  "hardpointSprite": "graphics/weapons/sikr_nothing.png",
+  "turretOffsets": [
+    -2,
+    -40,
+    -2,
+    -30,
+    -2,
+    -20,
+    -2,
+    -10,
+    -2,
+    10,
+    -2,
+    20,
+    -2,
+    30,
+    -2,
+    40
+  ],
+  "turretAngleOffsets": [
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    -2,
+    -40,
+    -2,
+    -30,
+    -2,
+    -20,
+    -2,
+    -10,
+    -2,
+    10,
+    -2,
+    20,
+    -2,
+    30,
+    -2,
+    40
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0,
+    0,
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "SMOKE",
+  "smokeSpec": {
+    "particleSizeMin": 6,
+    "particleSizeRange": 12,
+    "cloudParticleCount": 2,
+    "cloudDuration": 0.4,
+    "cloudRadius": 4,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 1.1,
+    "blowbackLength": 0,
+    "blowbackSpread": 10,
+    "particleColor": [
+      170,
+      160,
+      150,
+      100
+    ]
+  },
+  "fireSoundTwo": "swarmer_fire"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "sikr",
+    "name": "San-Iris",
+    "author": "Sikair",
+    "version": "0.9.91",
+    "description": "Calm water and imperial loyalty bring prosperity",
+    "gameVersion": "0.97a-RC11",	
+	"dependencies": [
+        {
+            "id": "lw_lazylib",
+            "name": "LazyLib"
+        },
+        {
+            "id": "MagicLib",
+            "name": "MagicLib"
+        }
+    ],
+	"jars":["jars/Sikr-Iris.jar"],	
+	"modPlugin":"data.scripts.sikr_saniris_mod_plugin",
+}

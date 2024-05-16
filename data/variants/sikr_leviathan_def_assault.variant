@@ -1,0 +1,87 @@
+{
+  "variantId": "sikr_leviathan_def_assault",
+  "hullId": "sikr_leviathan_def",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 36,
+  "fluxVents": 42,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "dedicated_targeting_core",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sikr_arti_battery",
+        "WS0003": "sikr_arti_battery"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "mark9",
+        "WS0005": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "flak",
+        "WS0007": "flak"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "sikr_fraggun",
+        "WS0010": "sikr_fraggun",
+        "WS0011": "sikr_fraggun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "vulcan",
+        "WS0013": "vulcan",
+        "WS0014": "vulcan",
+        "WS0015": "vulcan",
+        "WS0016": "vulcan",
+        "WS0017": "vulcan",
+        "WS0018": "lightdualmg",
+        "WS0019": "lightdualmg",
+        "WS0020": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0024": "vulcan",
+        "WS0025": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "flak",
+        "WS0021": "vulcan",
+        "WS0022": "vulcan"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "HORN": "sikr_leviathan_defense_armor"
+    }
+  ],
+  "wings": []
+}

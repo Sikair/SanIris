@@ -1,0 +1,79 @@
+{
+  "variantId": "sikr_veko_artillery",
+  "hullId": "sikr_veko",
+  "displayName": "Artillery",
+  "goalVariant": true,
+  "fluxCapacitors": 14,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "heavyarmor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "heavymauler",
+        "WS0002": "heavymauler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sikr_fraggun_heavy",
+        "WS0004": "sikr_fraggun_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "hveldriver",
+        "WS0006": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "vulcan",
+        "WS0009": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "vulcan",
+        "WS0010": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0011": "sikr_urchin_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "sikr_urchin_small"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "HORNL": "sikr_veko_left_armor"
+    },
+    {
+      "HORNR": "sikr_veko_right_armor"
+    }
+  ],
+  "wings": []
+}

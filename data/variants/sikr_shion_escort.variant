@@ -1,0 +1,48 @@
+{
+  "variantId": "sikr_shion_escort",
+  "hullId": "sikr_shion",
+  "displayName": "Escort",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "pointdefenseai"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "salamanderpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "sikr_fraggun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "sikr_fraggun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sikr_urchin_small"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sikr_jorm_wing",
+    "sikr_horonn_wing"
+  ]
+}

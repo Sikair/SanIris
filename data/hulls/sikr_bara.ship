@@ -1,0 +1,156 @@
+{
+  "hullName": "Bara",
+  "hullId": "sikr_bara",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/sikr_bara.png",
+  "style": "MIDLINE",
+  "height": 193,
+  "width": 132,
+  "center": [66, 116],
+  "collisionRadius": 121.5,
+  "shieldCenter": [-12, -0],
+  "shieldRadius": 107.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_aegirran"
+  ],
+  "builtInWeapons": {
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 20,
+      "angle": 0,
+      "locations": [44, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": 55,
+      "locations": [12.5, 19],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 240,
+      "angle": -55,
+      "locations": [12.5, -19],
+      "renderOrderMod": 5
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 180,
+      "locations": [-53, 0]
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 135,
+      "locations": [-48, 43]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -135,
+      "locations": [-48, -43]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": 45,
+      "locations": [32, 25],
+      "renderOrderMod": 2
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 220,
+      "angle": -45,
+      "locations": [32, -25],
+      "renderOrderMod": 2
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-35, 41],
+      "length": 0,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-35, -41],
+      "length": 0,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-48, 33],
+      "length": 0,
+      "width": 13,
+      "angle": 180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-48, -33],
+      "length": 0,
+      "width": 13,
+      "angle": -180,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -44, -21,
+    -50, -35,
+    -37, -43,
+    -16, -35,
+    -11, -57,
+    40, -61,
+    75, -19,
+    57, -17,
+    57, 17,
+    75, 19,
+    40, 61,
+    -11, 57,
+    -16, 35,
+    -37, 43,
+    -50, 35,
+    -44, 21,
+    -114, -0
+  ]
+}
