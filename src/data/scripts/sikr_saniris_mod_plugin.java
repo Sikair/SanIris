@@ -108,7 +108,7 @@ public class sikr_saniris_mod_plugin extends BaseModPlugin {
 
         PersonAPI sikr_lily_yellow = ip.getPerson("sikr_lily_yellow");
         // PersonAPI sikr_lily_white = ip.getPerson("sikr_lily_white");
-        // PersonAPI sikr_lily_pink = ip.getPerson("sikr_lily_pink");
+        PersonAPI sikr_lily_pink = ip.getPerson("sikr_lily_pink");
         // PersonAPI sikr_lily_orange = ip.getPerson("sikr_lily_orange");
         // PersonAPI sikr_lily_red = ip.getPerson("sikr_lily_red");
         // PersonAPI sikr_lily_purple = ip.getPerson("sikr_lily_purple");
@@ -119,7 +119,7 @@ public class sikr_saniris_mod_plugin extends BaseModPlugin {
         //white
         // sikr_lilies_gen.spawnWhiteToIndependent(sikr_lily_white);
         //pink
-        // sikr_lilies_gen.spawnPinkToTriTachyon(sikr_lily_pink);
+        sikr_lilies_gen.spawnPinkToSanIris(sikr_lily_pink);
         //orange
         // sikr_lilies_gen.spawnOrangeToHegemony(sikr_lily_orange);
         //red

@@ -11,6 +11,7 @@ import org.magiclib.util.MagicVariables;
 import com.fs.starfarer.api.Global;
 import com.fs.starfarer.api.campaign.CampaignFleetAPI;
 import com.fs.starfarer.api.campaign.FleetAssignment;
+import com.fs.starfarer.api.campaign.PersonImportance;
 import com.fs.starfarer.api.campaign.SectorEntityToken;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
 import com.fs.starfarer.api.characters.ImportantPeopleAPI;
@@ -229,7 +230,7 @@ public class sikr_lilies_gen {
         }
     }
 
-    public static void spawnPinkToTriTachyon(PersonAPI pink){
+    public static void spawnPinkFleetToTriTachyon(PersonAPI pink){
         //settle for the largest market
         SectorEntityToken target=null;
         
@@ -273,6 +274,28 @@ public class sikr_lilies_gen {
             //orangeFleet.getFlagship().getStats().getDynamic().getMod(Stats.INDIVIDUAL_SHIP_RECOVERY_MOD).modifyFlat("id_unique", -2000f);
             //orangeFleet.addEventListener(new Diableavionics_gulfLoot());
             return;
+        }
+    }
+
+    public static void spawnPinkToSanIris(PersonAPI pink){
+        MarketAPI sikr_lily_market = Global.getSector().getEconomy().getMarket("sikr_lily_market");
+
+        if(sikr_lily_market == null){
+            //if no main planet settle for the largest market
+            for(MarketAPI m : Global.getSector().getEconomy().getMarketsCopy()){
+                if(m.getFaction().getId().equals("sikr_saniris")){
+                    if(sikr_lily_market==null || m.getSize() > sikr_lily_market.getSize()){
+                        sikr_lily_market = m.getPrimaryEntity().getMarket();
+                    }
+                }
+            }
+        }
+        if(sikr_lily_market != null){
+            sikr_lily_market.addPerson(pink);
+            sikr_lily_market.getCommDirectory().addPerson(pink, 1);
+            pink.setImportance(PersonImportance.HIGH);
+            pink.addTag(Tags.CONTACT_TRADE);
+            pink.addTag(Tags.INTEL_CONTACTS);
         }
     }
 
@@ -486,7 +509,7 @@ public class sikr_lilies_gen {
             .setSpawnLocation(null)
             .setAssignment(FleetAssignment.PATROL_SYSTEM)
             .setAssignmentTarget(target)
-            .setIsImportant(true)
+            //.setIsImportant(true)
             .setTransponderOn(true)
             .create();
             

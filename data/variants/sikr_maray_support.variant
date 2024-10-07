@@ -1,0 +1,71 @@
+{
+  "variantId": "sikr_maray_support",
+  "hullId": "sikr_maray",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sikr_ornnhal"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "sikr_fraggun",
+        "WS0004": "sikr_fraggun",
+        "WS0005": "sikr_fraggun",
+        "WS0006": "sikr_fraggun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "heatseeker"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightmg",
+        "WS0010": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "sikr_urchin_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0008": "sikr_urchin_small"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sikr_kolga_wing",
+    "sikr_kolga_wing"
+  ]
+}

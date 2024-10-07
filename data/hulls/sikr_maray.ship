@@ -1,0 +1,316 @@
+{
+  "hullName": "Maray",
+  "hullId": "sikr_maray",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sikr_maray.png",
+  "style": "MIDLINE",
+  "height": 206,
+  "width": 258,
+  "center": [129, 125],
+  "collisionRadius": 156,
+  "shieldCenter": [-7, -0],
+  "shieldRadius": 146.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_aegirran"
+  ],
+  "builtInWeapons": {
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 60,
+      "angle": -10,
+      "locations": [-3, -51]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-7, 32]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 8,
+      "locations": [46, 48]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -8,
+      "locations": [46, -48]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 8,
+      "locations": [34, 68]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -8,
+      "locations": [34, -68]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": 110,
+      "locations": [-4, 88]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 110,
+      "angle": -110,
+      "locations": [-4, -88]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 170,
+      "locations": [-55, 49]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": -170,
+      "locations": [-55, -49]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        18, 15,
+        33, 26,
+        -37, -12
+      ]
+    },
+    {
+      "id": "LB 2",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        18, -15,
+        33, -26,
+        -37, 12
+      ]
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 144,
+      "locations": [-53, 106]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -144,
+      "locations": [-53, -106]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 10,
+      "locations": [61, 47]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -10,
+      "locations": [61, -47]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 23,
+      "locations": [43, 94]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -23,
+      "locations": [43, -94]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 100,
+      "locations": [-5, 108]
+    },
+    {
+      "id": "WS0016",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": -100,
+      "locations": [-5, -108]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-31, 110],
+      "length": 0,
+      "width": 11,
+      "angle": 135,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-31, -110],
+      "length": 0,
+      "width": 11,
+      "angle": -135,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-42, 102],
+      "length": 0,
+      "width": 11,
+      "angle": 135,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-42, -102],
+      "length": 0,
+      "width": 11,
+      "angle": -135,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-53, 88],
+      "length": 0,
+      "width": 11,
+      "angle": 135,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-53, -88],
+      "length": 0,
+      "width": 11,
+      "angle": -135,
+      "contrailSize": 11,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -61, -12,
+    -45, -25,
+    -60, -36,
+    -121, -49,
+    -60, -62,
+    -46, -73,
+    -56, -91,
+    -38, -82,
+    -34, -87,
+    -45, -105,
+    -26, -96,
+    -33, -112,
+    -18, -105,
+    1, -112,
+    16, -103,
+    22, -104,
+    20, -126,
+    36, -115,
+    51, -117,
+    45, -104,
+    49, -70,
+    63, -47,
+    77, -6,
+    70, -0,
+    77, 6,
+    63, 47,
+    49, 70,
+    45, 104,
+    51, 117,
+    36, 115,
+    20, 126,
+    22, 104,
+    16, 103,
+    1, 112,
+    -18, 105,
+    -33, 112,
+    -26, 96,
+    -45, 105,
+    -34, 87,
+    -38, 82,
+    -56, 91,
+    -46, 73,
+    -60, 62,
+    -121, 49,
+    -60, 36,
+    -45, 25,
+    -61, 12
+  ]
+}

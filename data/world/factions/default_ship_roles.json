@@ -46,6 +46,9 @@
 			"sikr_echin_support":2,
 			
 			"sikr_nuyre_ranged":2,
+			
+			"sikr_hnoss_assault":1,
+			"sikr_hnoss_strike":1,
 	},
 	"combatLarge":{
 			"sikr_echin_support":2,
@@ -57,6 +60,9 @@
             "sikr_unnr_artillery":1,
 			"sikr_unnr_anchor":2,
 			"sikr_unnr_escort":1,
+			
+			"sikr_maray_assault":2,
+			"sikr_maray_support":2,
 			
 			"sikr_leviathan_def_standard":2,
 	},

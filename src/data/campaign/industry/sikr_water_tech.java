@@ -97,8 +97,15 @@ public class sikr_water_tech extends BaseHazardCondition {
             if (industry_heavy == null) industry_heavy = market.getIndustry(Industries.ORBITALWORKS);
 
             if(industry_heavy != null){
-                market.getStats().getDynamic().getMod(Stats.PRODUCTION_QUALITY_MOD).modifyFlat(id + "_quality", QUALITY_BONUS, "Tamed Ocean");
 
+                if(market.hasCondition(Conditions.POLLUTION)){
+                    market.removeCondition(Conditions.POLLUTION);
+                    market.getStats().getDynamic().getMod(Stats.PRODUCTION_QUALITY_MOD).unmodifyFlat(id + "_quality");
+                }
+                if(industry_heavy.getSpecialItem() == null){
+                    market.getStats().getDynamic().getMod(Stats.PRODUCTION_QUALITY_MOD).modifyFlat(id + "_quality", QUALITY_BONUS, "Tamed Ocean");
+                }
+                
                 if(industry_heavy.isFunctional()){
                     industry_heavy.supply(id + Commodities.HAND_WEAPONS + "_0", Commodities.HAND_WEAPONS, 0, BaseIndustry.BASE_VALUE_TEXT);
                     industry_heavy.supply(id + Commodities.HAND_WEAPONS + "_1", Commodities.HAND_WEAPONS, WORK_MODIFIER, Misc.ucFirst(condition.getName().toLowerCase()));
@@ -130,6 +137,8 @@ public class sikr_water_tech extends BaseHazardCondition {
                 }
             } 
         } 
+
+
     }
 
     public void unapply(String id) {
@@ -153,19 +162,26 @@ public class sikr_water_tech extends BaseHazardCondition {
         }
 
         if(market.hasIndustry(Industries.HEAVYINDUSTRY) || market.hasIndustry(Industries.ORBITALWORKS)){
-            IndustrySpecAPI industry_heavy = Global.getSettings().getIndustrySpec(Industries.HEAVYINDUSTRY);
-            if (industry_heavy == null) industry_heavy = Global.getSettings().getIndustrySpec(Industries.ORBITALWORKS);
+            IndustrySpecAPI industry_heavy_spec = Global.getSettings().getIndustrySpec(Industries.HEAVYINDUSTRY);
+            if (industry_heavy_spec == null) industry_heavy_spec = Global.getSettings().getIndustrySpec(Industries.ORBITALWORKS);
 
             CommoditySpecAPI spec_machine = Global.getSettings().getCommoditySpec(Commodities.HEAVY_MACHINERY);
             CommoditySpecAPI spec_weapon = Global.getSettings().getCommoditySpec(Commodities.HAND_WEAPONS);
             CommoditySpecAPI spec_ships = Global.getSettings().getCommoditySpec(Commodities.SHIPS);
 
-            tooltip.addPara("+" + WORK_MODIFIER + " " + spec_machine.getName().toLowerCase() + " production (" + industry_heavy.getName() + ")", pad, h, "+" + WORK_MODIFIER);	
-            tooltip.addPara("+" + WORK_MODIFIER + " " + spec_weapon.getName().toLowerCase() + " production (" + industry_heavy.getName() + ")", pad, h, "+" + WORK_MODIFIER);	
-            tooltip.addPara("+" + WORK_MODIFIER + " " + spec_ships.getName().toLowerCase() + " production (" + industry_heavy.getName() + ")", pad, h, "+" + WORK_MODIFIER);	
+            tooltip.addPara("+" + WORK_MODIFIER + " " + spec_machine.getName().toLowerCase() + " production (" + industry_heavy_spec.getName() + ")", pad, h, "+" + WORK_MODIFIER);	
+            tooltip.addPara("+" + WORK_MODIFIER + " " + spec_weapon.getName().toLowerCase() + " production (" + industry_heavy_spec.getName() + ")", pad, h, "+" + WORK_MODIFIER);	
+            tooltip.addPara("+" + WORK_MODIFIER + " " + spec_ships.getName().toLowerCase() + " production (" + industry_heavy_spec.getName() + ")", pad, h, "+" + WORK_MODIFIER);	
         
-            String bonus = "+" + ((int) (QUALITY_BONUS * 100)) + "%";
-            tooltip.addPara("%s ship quality (" + industry_heavy.getName() + ")", pad, h, bonus);
+            Industry industry_heavy = market.getIndustry(Industries.HEAVYINDUSTRY);
+            if (industry_heavy == null) industry_heavy = market.getIndustry(Industries.ORBITALWORKS);
+
+            if(industry_heavy.getSpecialItem() != null){
+                tooltip.addPara("Prevent pollution", pad, h);
+            }else{
+                String bonus = "+" + ((int) (QUALITY_BONUS * 100)) + "%";
+                tooltip.addPara("%s ship quality (" + industry_heavy_spec.getName() + ")", pad, h, bonus);
+            }
         }
     }
 }

@@ -100,3 +100,5 @@ sikr_flavorTextMarketLilySneak,TradePanelFlavorText,"$global.tradePanelMode == M
 $faction.id == sikr_saniris
 $market.id == sikr_lily score:100
 $player.transponderOn == false","AddText ""The ship shakes all over, as you follow a sequence of precise geographic coordinates provided by some black market contact. The maneuvers must be performed within a time limit, all while following a storm of high intensity. All this to avoid the security system of the planet and the frequent patrols. To finally land on a smuggling submarine in the middle of nowhere."" marketFlavorTextColor",,,
+,,,,,,
+# pink contact,,,,,,

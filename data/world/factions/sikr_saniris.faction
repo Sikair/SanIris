@@ -61,7 +61,9 @@
 			"sikr_lehal":0.7,
 			"sikr_ocean":1,
 			"sikr_vine":0.7,
-			"sikr_pond":0.8
+			"sikr_pond":0.8,
+			"sikr_hnoss":0.9,
+			"sikr_maray":1
 		},
 	},
 	# ships the faction gets access to when importing S&W out-of-faction
@@ -88,14 +90,15 @@
 			"sikr_lehal",
 			"sikr_ocean",
 			"sikr_vine",
-			"sikr_pond"
+			"sikr_pond",
+			"sikr_hnoss",
+			"sikr_maray"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
-			"atlas",
 			"phaeton",
 			"sikr_dufa",
 			"sikr_bara",
@@ -112,7 +115,9 @@
 			"sikr_lehal",
 			"sikr_ocean",
 			"sikr_vine",
-			"sikr_pond"
+			"sikr_pond",
+			"sikr_hnoss",
+			"sikr_maray"
 		],
 	},
 	"knownFighters":{
@@ -171,7 +176,6 @@
 		"tags":[],
 		"weapons":[
 			"flak",
-			"heavymauler",
 			"hveldriver",
 			"sikr_arti_launcher",
 			"sikr_arti_battery",

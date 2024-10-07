@@ -1,0 +1,266 @@
+{
+  "hullName": "Hnoss",
+  "hullId": "sikr_hnoss",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/sikr_hnoss.png",
+  "style": "MIDLINE",
+  "height": 254,
+  "width": 138,
+  "center": [69, 141],
+  "collisionRadius": 167.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 164.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_aegirran",
+    "sikr_sbi"
+  ],
+  "builtInWeapons": {
+    "TENT0L": "sikr_logic_thruster",
+    "TENT0R": "sikr_logic_thruster"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [85, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 0,
+      "locations": [97, 43]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -0,
+      "locations": [97, -43]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [53, -14]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [53, 14]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -30,
+      "locations": [27, -24]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 30,
+      "locations": [27, 24]
+    },
+    {
+      "id": "WS00011",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": -70,
+      "locations": [5, -17]
+    },
+    {
+      "id": "WS00010",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 170,
+      "angle": 70,
+      "locations": [5, 17]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-16, -26]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-16, 26]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 180,
+      "locations": [-51, -0]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 230,
+      "angle": 180,
+      "locations": [-77, -0]
+    },
+    {
+      "id": "TENT0L",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 144,
+      "locations": [-66, 57]
+    },
+    {
+      "id": "TENT0R",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -144,
+      "locations": [-66, -57]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": 0,
+      "locations": [91, 43]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 8,
+      "angle": -0,
+      "locations": [91, -43]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-45, 55],
+      "length": 0,
+      "width": 16,
+      "angle": 135,
+      "contrailSize": 7.778174,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-45, -55],
+      "length": 0,
+      "width": 16,
+      "angle": -135,
+      "contrailSize": 7.778174,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-58, 48],
+      "length": 0,
+      "width": 16,
+      "angle": 135,
+      "contrailSize": 7.778174,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-58, -48],
+      "length": 0,
+      "width": 16,
+      "angle": -135,
+      "contrailSize": 7.778174,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-73, 40],
+      "length": 0,
+      "width": 16,
+      "angle": 135,
+      "contrailSize": 7.778174,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-73, -40],
+      "length": 0,
+      "width": 16,
+      "angle": -135,
+      "contrailSize": 7.778174,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -72, -13,
+    -79, -19,
+    -68, -27,
+    -74, -41,
+    -57, -33,
+    -59, -49,
+    -43, -42,
+    -46, -55,
+    -28, -52,
+    -35, -65,
+    -14, -66,
+    63, -25,
+    79, -45,
+    68, -61,
+    104, -54,
+    104, 54,
+    68, 61,
+    79, 45,
+    63, 25,
+    -14, 66,
+    -35, 65,
+    -28, 52,
+    -46, 55,
+    -43, 42,
+    -59, 49,
+    -57, 33,
+    -74, 41,
+    -68, 27,
+    -79, 19,
+    -72, 13,
+    -138, -0
+  ]
+}

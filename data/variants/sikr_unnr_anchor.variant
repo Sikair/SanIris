@@ -3,7 +3,7 @@
   "hullId": "sikr_unnr",
   "displayName": "Anchor",
   "goalVariant": true,
-  "fluxCapacitors": 15,
+  "fluxCapacitors": 29,
   "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
@@ -29,7 +29,7 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0001": "sikr_urchin_small"
+        "WS0001": "sikr_urchin"
       }
     }
   ],

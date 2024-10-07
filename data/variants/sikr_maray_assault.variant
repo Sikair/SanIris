@@ -1,0 +1,60 @@
+{
+  "variantId": "sikr_maray_assault",
+  "hullId": "sikr_maray",
+  "displayName": "Assault",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 25,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sikr_neolg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "lightac",
+        "WS0004": "lightac",
+        "WS0005": "lightac",
+        "WS0006": "lightac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0007": "vulcan",
+        "WS0008": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0009": "lightmg",
+        "WS0010": "lightmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sikr_hefring_wing",
+    "sikr_horonn_wing"
+  ]
+}
