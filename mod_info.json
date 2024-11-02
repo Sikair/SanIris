@@ -2,8 +2,8 @@
     "id": "sikr",
     "name": "San-Iris",
     "author": "Sikair",
-    "version": "0.9.91",
-    "description": "Calm water and imperial loyalty bring prosperity",
+    "version": "1.0.0",
+    "description": "An isolationist and spiritualist faction, controlling their population through a strict regime and the strange effect of their water world",
     "gameVersion": "0.97a-RC11",	
 	"dependencies": [
         {

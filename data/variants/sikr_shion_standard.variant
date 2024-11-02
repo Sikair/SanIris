@@ -3,8 +3,8 @@
   "hullId": "sikr_shion",
   "displayName": "Standard",
   "goalVariant": true,
-  "fluxCapacitors": 6,
-  "fluxVents": 5,
+  "fluxCapacitors": 5,
+  "fluxVents": 10,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -20,14 +20,14 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0004": "lightmg"
+        "WS0004": "lightdualmg"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "WS0005": "lightmg"
+        "WS0005": "lightdualmg"
       }
     },
     {

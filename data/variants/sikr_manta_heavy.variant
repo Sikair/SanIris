@@ -4,7 +4,7 @@
   "displayName": "Heavy",
   "goalVariant": true,
   "fluxCapacitors": 5,
-  "fluxVents": 10,
+  "fluxVents": 14,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
