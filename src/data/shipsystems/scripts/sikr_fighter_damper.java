@@ -30,7 +30,7 @@ public class sikr_fighter_damper extends BaseShipSystemScript {
 			float jitterRangeBonus = jitterLevel * maxRangeBonus;
 
 			if(ship == Global.getCombatEngine().getPlayerShip()){
-				Global.getCombatEngine().maintainStatusForPlayerShip("San-Iris", "graphics/icons/hullsys/targeting_feed.png", "Flux Dissipation",
+				Global.getCombatEngine().maintainStatusForPlayerShip("San-Iris", "graphics/icons/hullsys/targeting_feed.png", "DAMPER EMITTER",
 				"Fighters damage taken reduced by " + (int)Math.round((DMG_REDUCTION) * 100f) + "%", false);
 			}
 

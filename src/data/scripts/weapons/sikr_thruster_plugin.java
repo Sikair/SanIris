@@ -11,7 +11,6 @@ import com.fs.starfarer.api.combat.WeaponAPI;
 import com.fs.starfarer.api.graphics.SpriteAPI;
 import com.fs.starfarer.api.util.Misc;
 
-import org.lazywizard.lazylib.MathUtils;
 import org.lazywizard.lazylib.VectorUtils;
 import org.lwjgl.util.vector.Vector2f;
 
@@ -62,18 +61,14 @@ public class sikr_thruster_plugin  implements EveryFrameWeaponEffectPlugin{
             num = 0;
         }
 
-        //get where the ship is going to generate the offset vector
-        float facing_dif = MathUtils.getShortestRotation(ship.getFacing(), VectorUtils.getAngle(new Vector2f(0,0), ship.getVelocity()));
-        facing_dif = Math.abs(facing_dif);
+        //multiply the wiggle by the speed of the ship, speed under 50 are not used
+        float speed_offest = ship.getVelocity().length() > 50 ? ship.getVelocity().length() : 50;
+        offset = new Vector2f(side_var*(MagicAnim.smoothReturnNormalizeRange(num, 0, 120)*speed_offest),-120);
 
-        offset = new Vector2f(side_var*(MagicAnim.smoothReturnNormalizeRange(num, 0, 120)*(ship.getVelocity().length()+1)),MagicAnim.normalizeRange(facing_dif, 0 ,80)*-80 + -120);
-        //offset = new Vector2f(side_var*(MagicAnim.smoothReturnNormalizeRange(num, 0, 120)*(ship.getVelocity().length()+20)),-120);
+        //engine.addFloatingText(weapon.getLocation(), Misc.getAngleInDegrees(new Vector2f(ship.getVelocity()))+"", 10, new Color(255, 255, 255), ship, 0, 0);
 
-        //MagicTrailPlugin.AddTrailMemberAdvanced(linkedEntity, ID, sprite, position, startSpeed, endSpeed, angle, startAngularVelocity, endAngularVelocity, 
-            //startSize, endSize, startColor, endColor, opacity, inDuration, mainDuration, outDuration, additive, textureLoopLength, textureScrollSpeed, textureOffset, offsetVelocity, advancedOptions, layerToRenderOn, frameOffsetMult);    
-        
         if(trail_data != null){
-            MagicTrailPlugin.addTrailMemberAdvanced((CombatEntityAPI) ship, trail_id, sprite, weapon.getLocation(), 0f, 5f, Misc.getAngleInDegrees(new Vector2f(ship.getVelocity())) + 1 + weapon.getSlot().getAngle() , trail_data.startAngular, trail_data.endAngular, 
+            MagicTrailPlugin.addTrailMemberAdvanced((CombatEntityAPI) ship, trail_id, sprite, weapon.getLocation(), 0f, 5f, ship.getFacing() + weapon.getSlot().getAngle() , trail_data.startAngular, trail_data.endAngular, 
                 trail_data.startSize, trail_data.endSize, new Color(200,0,165,255), new Color(255,0,210,255), alpha, trail_data.inDuration, trail_data.mainDuration, trail_data.outDuration, false, 0f, 0f, VectorUtils.rotate(offset, ship.getFacing()-90), null, null, 1f);
         }else{
             switch(ship.getHullSize()){

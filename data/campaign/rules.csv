@@ -1,4 +1,6 @@
 id,trigger,conditions,script,text,options,notes
+"#RULESET_NAME SanIris",,,,,,
+,,,,,,
 # San-Iris fleet greeting,,,,,,
 sikr_greetingSanIrisFriendly,OpenCommLink,"$faction.id == sikr_saniris
 $faction.friendlyToPlayer","$menuState = fleetConvMain 0
@@ -6,26 +8,26 @@ FireAll PopulateOptions","""Communication verified, greetings. I hope that all i
 OR
 ""Identity confirmed, how is your journey going? I will pray to the oceans for your fortune.""
 OR
-""Friendly code received, I see that it is you. We hope to see you at the next appearance of the Empress, glory to her name. And a safe journey to you.""",,
+""Friendly code received. We hope to see you at the next appearance of the Empress, glory to her name. And a safe journey to you.""",,
 sikr_greetingSanIrisHostileWeaker,OpenCommLink,"$faction.id == sikr_saniris
 $entity.isHostile
-$entity.relativeStrength < 0",$entity.ignorePlayerCommRequests = true 1,"You only see static on the screen.
+$entity.relativeStrength < 0","$entity.ignorePlayerCommRequests = true 1","You only see static on the screen.
 OR
 ""How can you oppose the bright future that our empress brings!""
 OR
-""Your position has been relayed, we advise you to disengage immediately!"" $heOrShe looks away ""Orders are orders..."".",cutCommLink:Cut the comm link,
+""Your position has been relayed, we advise you to disengage immediately!"" $heOrShe looks away ""Orders are orders..."".","cutCommLink:Cut the comm link",
 sikr_greetingSanIrisHostileWeakerDefiant,OpenCommLink,"$faction.id == sikr_saniris
 $entity.isHostile
 $entity.relativeStrength < 0
-$entity.weakerThanPlayerButHolding",$entity.ignorePlayerCommRequests = true 1,"""For I was born and was baptized in the waters, to the waters I shall return"" $heOrShe looks up and cuts off communication.
+$entity.weakerThanPlayerButHolding","$entity.ignorePlayerCommRequests = true 1","""For I was born and was baptized in the waters, to the waters I shall return"" $heOrShe looks up and cuts off communication.
 OR
 ""I will do what I must and what I can to protect the future of my nation, Glory to us!"" 
 The comm shut off.
 OR
-""I do not fear death, for if she embraces me, I will hear the eternal lullaby.""",cutCommLink:Cut the comm link,
+""I do not fear death, for if the waters embraces me, I will live forever.""","cutCommLink:Cut the comm link",
 sikr_greetingSanIrisHostileStronger,OpenCommLink,"$faction.id == sikr_saniris
 $entity.isHostile
-$entity.relativeStrength >= 0",$entity.ignorePlayerCommRequests = true 1,"""Our superiority is obvious, whether it is personal or material. Scuttle your ships and you will be recovered. Life in the integration camps is very pleasant from what I have heard.""
+$entity.relativeStrength >= 0","$entity.ignorePlayerCommRequests = true 1","""Our superiority is obvious, whether it is personal or material. Scuttle your ships and you will be recovered. Life in the integration camps is very pleasant from what I have heard.""
 
 The San-Iris $personRank smiles briefly before cutting the communication.
 OR
@@ -33,28 +35,29 @@ OR
 
 The comm-line goes black.
 OR
-""So either you break down on our defenses or we track you down, either way your screams will be lost in space. May your soul find its way home.""
+""So either you break down on our defenses or we track you down, either way its our win. May your souls find its way home.""
 OR
-The comm-line is in sound only, and you hear singing coming from the other side. After a while the radio officer cuts the communication in frustration. ",cutCommLink:Cut the comm link,
+The comm-line is sounds only, and you hear singing coming from the other side. After a while the radio officer cuts the communication in frustration. ","cutCommLink:Cut the comm link",
 sikr_greetingSanIrisNeutral,OpenCommLink,"$faction.id == sikr_saniris
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
 FireAll PopulateOptions","""Declare your intentions or take distance, no interference will be tolerated"".
 OR
-""If you are looking to join San-Iris to be part of something bigger, head for the nearest port of immigration. Otherwise circulate"".
+""If you are looking to join San-Iris and be part of something bigger, head for the nearest port. Otherwise circulate"".
 OR
-""You can look at the beauty of our ships any way you want, it's not like you'll be able to understand anything. Just don't interfere"".",,
+""You can look at the beauty of our ships all you want, it's not like you'll be able to understand anything. Just don't interfere"".",,
+"#END San-Iris fleet greeting",,,,,,
 ,,,,,,
-# relationship level descriptions,,,,,,
+# Relationship level descriptions,,,,,,
 sikr_relLevelNeutralSanIris,RelationshipLevelDesc,"$faction.rel == NEUTRAL
 $faction.id == sikr_saniris",,"Even though immigration is closed, San-Iris is friendly and welcoming to visitors, including you.",,
 sikr_relLevelFavorableSanIris,RelationshipLevelDesc,"$faction.rel == FAVORABLE
 $faction.id == sikr_saniris",,"Even though immigration is closed, San-Iris is still interested in people who could prove useful.",,
 sikr_relLevelWelcomingSanIris,RelationshipLevelDesc,"$faction.rel == WELCOMING
-$faction.id == sikr_saniris",,You have gained enough notoriety to get past the isolationist policy of San-Iris and to be welcomed by the locals,,
+$faction.id == sikr_saniris",,"You have gained enough notoriety to get past the isolationist policy of San-Iris and to be welcomed by the locals",,
 sikr_relLevelFriendlySanIris,RelationshipLevelDesc,"$faction.rel == FRIENDLY
-$faction.id == sikr_saniris",,The officials value you and you are used to the customs of San-Iris. You have probably sworn loyalty to the Empress once or twice.,,
+$faction.id == sikr_saniris",,"The officials value you and you are used to the customs of San-Iris. You have probably sworn loyalty to the Empress once or twice.",,
 sikr_relLevelCooperativeSanIris,RelationshipLevelDesc,"$faction.rel == COOPERATIVE
-$faction.id == sikr_saniris",,The officials trust you and the empress has offered you the status of a distinguished ally.,,
+$faction.id == sikr_saniris",,"The officials trust you and the empress has offered you the status of a distinguished ally.",,
 sikr_relLevelSuspiciousSanIris,RelationshipLevelDesc,"$faction.rel == SUSPICIOUS
 $faction.id == sikr_saniris",,"It seems that San-Iris officials view you negatively, which can happen very easily.",,
 sikr_relLevelInhospitableSanIris,RelationshipLevelDesc,"$faction.rel == INHOSPITABLE
@@ -63,40 +66,106 @@ sikr_relLevelHostileSanIris,RelationshipLevelDesc,"$faction.rel == HOSTILE
 $faction.id == sikr_saniris",,"By decree, you are an enemy of the empress, which makes you the enemy of the entire population that praises her.",,
 sikr_relLevelVengefulSanIris,RelationshipLevelDesc,"$faction.rel == VENGEFUL
 $faction.id == sikr_saniris",,"During a public appearance, you were personally reported by the empress as an enemy, a madman who cannot understand the blessing of the waters. It would be wise to stay away from any citizen of San-Iris.",,
+"#END Relationship level descriptions",,,,,,
 ,,,,,,
-# commission,,,,,,
-sikr_CMSNTextRejectHostile_default,CMSNTextRejectHostile,$faction.id == sikr_saniris,,"""How can you show your face here? Do you want to be arrested, or is this some kind of redemption?""",,
-sikr_CMSNTextHasOther_default,CMSNTextHasOther,$faction.id == sikr_saniris,,"""You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by $theFaction.""",,
-sikr_CMSNTextUnsuited_default,CMSNTextUnsuited,$faction.id == sikr_saniris,,"""I'm sorry, but you don't meet the criteria set by the Empress for receiving a commission.""",,
-sikr_CMSNTextSuitedPart1_default,CMSNTextSuitedPart1,$faction.id == sikr_saniris,,"""Hmm, yes, you're a suitable candidate.
+# Commission flavor text,,,,,,
+sikr_CMSNTextRejectHostile_default,CMSNTextRejectHostile,"$faction.id == sikr_saniris",,"""How can you show your face here? Do you want to be arrested, or is this some kind of redemption?""",,
+sikr_CMSNTextHasOther_default,CMSNTextHasOther,"$faction.id == sikr_saniris",,"""You're already commissioned by $theOtherCommissionFaction. You'll have to resign that commission before you can be commissioned by $theFaction.""",,
+sikr_CMSNTextUnsuited_default,CMSNTextUnsuited,"$faction.id == sikr_saniris",,"""I'm sorry, but you don't meet the criteria set by the Empress for receiving a commission.""",,
+sikr_CMSNTextSuitedPart1_default,CMSNTextSuitedPart1,"$faction.id == sikr_saniris",,"""Hmm, yes, you're a suitable candidate.
 
 Accepting a commission is a serious matter. You will be required to fight enemies of $theFaction, wherever they may be found.
 
 You'll be able to resign your commission at any time, though I don't imagine doing so would win you any friends.""",,
-sikr_CMSNTextSuitedPart2_default,CMSNTextSuitedPart2,$faction.id == sikr_saniris,,"""So, how about it? Still want to sign on?""",,
-sikr_CMSNTextWelcomePart1_default,CMSNTextWelcomePart1,$faction.id == sikr_saniris,,"""It's a good choice, and I'm sure our faith will help you achieve great goals.""",,
-sikr_CMSNTextWelcomePart2_default,CMSNTextWelcomePart2,$faction.id == sikr_saniris,,"""Anything else I can do for you?""",,
-sikr_CMSNTextChangeMind_default,CMSNTextChangeMind,$faction.id == sikr_saniris,,"""Yes, not everyone has it in them to uphold the values of $theFaction to such a high standard. No shame in it.
+sikr_CMSNTextSuitedPart2_default,CMSNTextSuitedPart2,"$faction.id == sikr_saniris",,"""So, how about it? Still want to sign on?""",,
+sikr_CMSNTextWelcomePart1_default,CMSNTextWelcomePart1,"$faction.id == sikr_saniris",,"""It's a good choice, and I'm sure our faith will help you achieve great goals.""",,
+sikr_CMSNTextWelcomePart2_default,CMSNTextWelcomePart2,"$faction.id == sikr_saniris",,"""Anything else I can do for you?""",,
+sikr_CMSNTextChangeMind_default,CMSNTextChangeMind,"$faction.id == sikr_saniris",,"""Yes, not everyone has it in them to uphold the values of $theFaction to such a high standard. No shame in it.
 
 Anything else I can do for you?""",,
-sikr_CMSNResignAskToConfirm_default,CMSNResignAskToConfirm,$faction.id == sikr_saniris,,"""Are you sure? $TheFaction needs people it can rely on, and turning your back like this won't be easily forgotten.""",,
-sikr_CMSNResignConfirmed_default,CMSNResignConfirmed,$faction.id == sikr_saniris,,"""I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.""",,
-sikr_CMSNResignCancelled_default,CMSNResignCancelled,$faction.id == sikr_saniris,,"""I see, I'm relieved.""",,
+sikr_CMSNResignAskToConfirm_default,CMSNResignAskToConfirm,"$faction.id == sikr_saniris",,"""Are you sure? $TheFaction needs people it can rely on, and turning your back like this won't be easily forgotten.""",,
+sikr_CMSNResignConfirmed_default,CMSNResignConfirmed,"$faction.id == sikr_saniris",,"""I can see there's no changing your mind. Well, at least you had the courtesy to tender your resignation in person.""",,
+sikr_CMSNResignCancelled_default,CMSNResignCancelled,"$faction.id == sikr_saniris",,"""I see, I'm relieved.""",,
+"#END Commission flavor text",,,,,,
 ,,,,,,
 # Trade panel flavor text,,,,,,
 sikr_flavorTextMarketIris,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == sikr_saniris
-$market.id == sikr_iris score:100
+$market.id == sikr_iris_market
 $player.transponderOn == true","AddText ""After very strict procedures. The floating port that welcomes you is far from any major city. Isolated from the rest of the world, with guard ships lurking in the water. Heavy batteries can be seen on the horizon. Officials quickly inspect your ship, then welcome you. The trade center is very lively and fairly unregulated, with the occasional patrol. It seems that as long as you don't leave this place, you can behave like anywhere else."" marketFlavorTextColor",,,
 sikr_flavorTextMarketIrisSneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == sikr_saniris
-$market.id == sikr_iris score:100
+$market.id == sikr_iris_market
 $player.transponderOn == false","AddText ""The ship shakes all over, as you follow a sequence of precise geographic coordinates provided by some black market contact. The maneuvers must be performed within a time limit, all while following a storm of high intensity. All this to avoid the security system of the planet and the frequent patrols. To finally land on a smuggling submarine in the middle of nowhere."" marketFlavorTextColor",,,
 sikr_flavorTextMarketLily,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == sikr_saniris
-$market.id == sikr_lily score:100
-$player.transponderOn == true","AddText ""After identification, the automated procedure guides you to one of the huge city-ships sailing the planet, followed by hundreds of smaller ships of all types. Once docked on one of the platforms, you are greeted by some official who inspects your ship and greets you. Not much traffic normally arrives on the docks of the cities and the population looks on curiously. You are given access to the city, from its markets to its workshops. Statues of the empress can be seen here and there and by looking at the horizon you can sometimes see ships coming in and out of the water."" marketFlavorTextColor",,,
+$market.id == sikr_lily_market
+$player.transponderOn == true","AddText ""After identification, the automated procedure guides you to one of the huge city-ships sailing the planet, followed by hundreds of smaller ships of all types. Once docked on one of the platforms, you are welcomed by some official who inspects your ship and greets you. Not much traffic normally arrives on the docks of the cities and the population looks on curiously. You are given access to the city, from its markets to its workshops. Religous symbol of the empresses can be seen here and there and by looking at the horizon you can sometimes see ships coming in and out of the water."" marketFlavorTextColor",,,
 sikr_flavorTextMarketLilySneak,TradePanelFlavorText,"$global.tradePanelMode == MARKET
 $faction.id == sikr_saniris
-$market.id == sikr_lily score:100
+$market.id == sikr_lily_market
 $player.transponderOn == false","AddText ""The ship shakes all over, as you follow a sequence of precise geographic coordinates provided by some black market contact. The maneuvers must be performed within a time limit, all while following a storm of high intensity. All this to avoid the security system of the planet and the frequent patrols. To finally land on a smuggling submarine in the middle of nowhere."" marketFlavorTextColor",,,
+"#END Trade panel flavor text",,,,,,
+,,,,,,
+# Pink contact quest,,,,,,
+sikr_PE_barEventOption,AddBarEvents,"!$global.sikr_PE_interactedBarEvent
+!$market.isHidden
+$faction.id == tritachyon
+$global.daysSinceStart > 0
+RollProbability 1","AddBarEvent sikr_PE_barEvent ""Talk to the lady who's failing at getting your attention discreetly"" ""A young lady, in a corner of the bar, is trying to get your attention discreetly by waving at random interval "" highlight",,,
+sikr_PE_barEvent,DialogOptionSelected,"$option == sikr_PE_barEvent","BeginConversation sikr_lily_pink true true","As you approach, she invites you to sit down, she seems reassured and says ""Was afraid you'd leave without seeing me. I have a very teeny tiny problem, and you can help me a lot here. I need a quick ride to Lily, in San-iris volume.""
+
+She sip on a drink not all spacer can afford.
+
+""I'll pay good money.""","sikr_PE_barEvent1:""What's the catch?""",
+sikr_PE_barEvent1,DialogOptionSelected,"$option == sikr_PE_barEvent1",,"""Oh, nothing nothing. Nothing you can't handle that is. Maybe nothing at all even.""
+
+She waits, obviously hoping for you to accept without further inquiry.","sikr_PE_barEventOk:""Okay, I'll drop you there""
+sikr_PE_barEvent2a:""I will need more info to risk taking you on my ship""
+sikr_PE_barEventNo:Refuse",
+sikr_PE_barEvent2a,DialogOptionSelected,"$option == sikr_PE_barEvent2a",,"She stops, visibly thinking or at least trying to give that look.
+
+""As you guessed... I may have angered some questionable business partner. But no major player, I assure it won't get you troubles of any sorts.""","sikr_PE_barEventOk:""Alright, I can spare a cabin""
+sikr_PE_barEventNo:Refuse",
+sikr_PE_barEventNo,DialogOptionSelected,"$option == sikr_PE_barEventNo",,"As you stand up, she grabs your arm, visibly troubled. 
+
+""No, please, wait ! I.. I really need to get out of here.""","sikr_PE_barEventOk:""Fine, I'll drop you there""
+backToBar:Return to the bar",
+sikr_PE_barEventOk,DialogOptionSelected,"$option == sikr_PE_barEventOk","$global.sikr_PE_accepted = true
+$global.sikr_PE_interactedBarEvent = true
+BeginMission sikr_pink_escort","""Thanks, thanks, I go pack my stuff and meet you at your ship, promise you won't have to wait on me."" She spring up and speed toward the exit of the bar.","backToBar:Return to the bar",
+sikr_PE_patrol,BeginFleetEncounter,"$sikr_PE_patrol score:1000
+!$sikr_PE_patrolEncounteredAlready
+Call $global.sikr_PE_ref updateData","$sikr_PE_patrolEncounteredAlready = true
+FleetDesc
+HailPlayer",,,
+sikr_PE_patrolComms,OpenCommLink,"$entity.sikr_PE_patrol score:1000
+!$entity.ignorePlayerCommRequests
+Call $global.sikr_PE_ref updateData","$entity.ignorePlayerCommRequests = true","As the comms connects, you see a $rank showing all sign of being a decently successful mercenary. $HeOrShe says confidently, ""You are currently transporting a person wanted by powerful magnate, I advise you surrender her to us and this will end here, without excess display of violence.""","sikr_PE_patrol1:Continue",
+sikr_PE_patrol1,DialogOptionSelected,"$option == sikr_PE_patrol1",,,"sikr_PE_what:""What has she done exactly?""
+sikr_PE_patrolLie:Convice the merc they will get into inter-faction trouble
+sikr_PE_patrolWeapons:Power up weapons",
+sikr_PE_patrolWeapons,DialogOptionSelected,"$option == sikr_PE_patrolWeapons","MakeOtherFleetHostile sikr_PE false
+MakeOtherFleetGoAway true
+MakeOtherFleetImportant sikr_PE false
+EndConversation","Briefly after ordering weapons to be powered up, your navigation officer informs you that the mercenary fleet appear to distance themselves, after a minute you have the guaranty they are avoiding contact and that they will let you go without fighting. With how little efforts they sowed in the end, it seems like the enemies of your passenger really were no major threats after all, you wonder why all the rush then.",,
+sikr_PE_what,DialogOptionSelected,"$option == sikr_PE_what",,"""You know that we where not told that sort of information, if I where to guess its related to some unkept promise about money, like its always the case in Tri-Tach. I'm simply doing my part of a deal here.""","sikr_PE_patrol1:Continue",
+sikr_PE_patrolLie,DialogOptionSelected,"$option == sikr_PE_patrolLie",,"""Were you informed that the fleet you are currently threatening was commissioned by San-Iris to capture the women you are looking for, she is a known criminal in an inter-faction conflict concerning Tri-Tachyon that is currently getting resolved. In your place, I wouldn't want to be the one to put that sort of deal in peril, its bad for the reputation.""","sikr_PE_patrolLie2:Continue",
+sikr_PE_patrolLie2,DialogOptionSelected,"$option == sikr_PE_patrolLie2","MakeOtherFleetHostile sikr_PE false
+MakeOtherFleetGoAway true
+MakeOtherFleetImportant sikr_PE false
+EndConversation","After a bit of thinking and internal discussion, the mercenary seems disappointed.
+
+""The risk's not worth the credits, let's do this; forget you ever saw us.""
+
+The comms is abruptly cut and your navigation officer informs you that they are leaving your direct area. With how little efforts they sowed in the end, it seems like the enemies of your passenger really were no major threats after all, or maybe your lie was spot on, that would explain all the rush.
+
+","cutCommLink:Cut the comm link",
+sikr_PE_barEventDrop,MarketPostDock,"$market.id == sikr_lily_market
+$global.sikr_PE_accepted == true","BeginConversation sikr_lily_pink true true
+$global.sikr_PE_accepted = false
+$global.sikr_PE_completed = true
+Call $global.sikr_PE_ref updateStage
+AddPotentialContact sikr_lily_pink","As you dock, the young lady you brought here opens up a comms. ""Thanks for the ride, hope I wasn't a bother in the end."" She smiles. ""Anyway, I have some business to do, it did fail in tri-tach but I still have lots of contacts here, won't be hard to bounce back. If you want, I'm sure I can find you some works, just contact me, you have my info."" The comms cuts and leaves you on a cheerful chime.","marketCmd_checkDebtContinue:Continue",
+"#END Pink contact quest",,,,,,
+

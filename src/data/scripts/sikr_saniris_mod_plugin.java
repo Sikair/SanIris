@@ -103,7 +103,7 @@ public class sikr_saniris_mod_plugin extends BaseModPlugin {
 
     public void onNewGameAfterEconomyLoad(){
 
-        sikr_lilies_gen.generate_lilies();
+        sikr_lilies_plugin.generate_lilies();
         ImportantPeopleAPI ip = Global.getSector().getImportantPeople();
 
         PersonAPI sikr_lily_yellow = ip.getPerson("sikr_lily_yellow");
@@ -115,19 +115,19 @@ public class sikr_saniris_mod_plugin extends BaseModPlugin {
         // PersonAPI sikr_lily_blue = ip.getPerson("sikr_lily_blue");
 
         //yellow
-        sikr_lilies_gen.spawnYellowToSanIris(sikr_lily_yellow);
+        sikr_lilies_plugin.spawnYellowToSanIris(sikr_lily_yellow);
         //white
-        // sikr_lilies_gen.spawnWhiteToIndependent(sikr_lily_white);
+        // sikr_lilies_plugin.spawnWhiteToIndependent(sikr_lily_white);
         //pink
-        // sikr_lilies_gen.spawnPinkToTriTachyon(sikr_lily_pink);
+        // sikr_lilies_plugin.spawnPinkToSanIris(sikr_lily_pink);
         //orange
-        // sikr_lilies_gen.spawnOrangeToHegemony(sikr_lily_orange);
+        // sikr_lilies_plugin.spawnOrangeToHegemony(sikr_lily_orange);
         //red
-        // sikr_lilies_gen.spawnRedToPirates(sikr_lily_red);
+        // sikr_lilies_plugin.spawnRedToPirates(sikr_lily_red);
         //purple
-        // sikr_lilies_gen.spawnPurpleToChurch(sikr_lily_purple);
+        // sikr_lilies_plugin.spawnPurpleToChurch(sikr_lily_purple);
         //blue
-        // sikr_lilies_gen.spawnBlueToRemnant(sikr_lily_blue);
+        // sikr_lilies_plugin.spawnBlueToRemnant(sikr_lily_blue);
     }
 
     @Override

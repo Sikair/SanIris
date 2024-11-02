@@ -67,7 +67,7 @@ public class sikr_aegirran_manufacturing extends BaseHullMod{
         ship.getMutableStats().getFluxDissipation().modifyMult(ship.getId()+"_sikr_manu", flux_dissip);
 
         if(ship == Global.getCombatEngine().getPlayerShip()){
-            Global.getCombatEngine().maintainStatusForPlayerShip("Aegirràn", "graphics/hullmods/flux_coil_adjunct.png", "Flux Dissipation",
+            Global.getCombatEngine().maintainStatusForPlayerShip("Aegirràn", "graphics/icons/hullsys/emp_emitter.png", "FLUX DISSIPATION",
             Math.round(flux_dissip*100) + " %", false);
         }
     }
