@@ -10,14 +10,26 @@ import com.fs.starfarer.api.combat.WeaponAPI;
 public class sikr_arti_fire implements OnFireEffectPlugin{
 
 	public void onFire(DamagingProjectileAPI projectile, WeaponAPI weapon, CombatEngineAPI engine) {
+
+		DamagingProjectileAPI new_proj = (DamagingProjectileAPI) engine.spawnProjectile(
+			weapon.getShip(),
+			weapon,
+			"sikr_artillery_canister",
+			projectile.getLocation(),
+			projectile.getFacing(),
+			weapon.getShip().getVelocity());
+           
+
 		float speedMult = 0.5f + 0.25f * (float) Math.random();
-		projectile.getVelocity().scale(speedMult);
+		new_proj.getVelocity().scale(speedMult);
 		
 		float angVel = (float) (Math.signum((float) Math.random() - 0.5f) * 
 						(0.5f + Math.random()) * 220f);
-		projectile.setAngularVelocity(angVel);
+		new_proj.setAngularVelocity(angVel);
 
-		engine.addPlugin(new sikr_arti_plugin(projectile, projectile.getSpawnLocation()));
+		engine.addPlugin(new sikr_arti_plugin(new_proj, new_proj.getSpawnLocation()));
+
+		engine.removeEntity(projectile);
 		
 		/*if (projectile instanceof MissileAPI) {
 			MissileAPI missile = (MissileAPI) projectile;

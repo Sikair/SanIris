@@ -1,7 +1,7 @@
 {
   "id": "sikr_arti_battery",
   "specClass": "projectile",
-  "projectileSpecId": "sikr_arti_proj",
+  "projectileSpecId": "sikr_arti_proj1",
   "type": "BALLISTIC",
   "size": "LARGE",
   "displayArcRadius": 450,

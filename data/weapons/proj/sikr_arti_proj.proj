@@ -1,8 +1,8 @@
 {
 	"id":"sikr_arti_proj",
 	"specClass":"missile",
-	"missileType":"MISSILE",
-	"onFireEffect":"data.scripts.weapons.sikr_arti_fire",
+	"missileType":"BOMB",
+	#"onFireEffect":"data.scripts.weapons.sikr_arti_fire",
 	"sprite":"graphics/missiles/sikr_arti_charge.png",
 	"size":[10,15],	
 	"center":[5,7],
