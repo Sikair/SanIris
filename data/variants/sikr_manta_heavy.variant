@@ -4,7 +4,7 @@
   "displayName": "Heavy",
   "goalVariant": true,
   "fluxCapacitors": 5,
-  "fluxVents": 14,
+  "fluxVents": 12,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -79,6 +79,6 @@
     "sikr_hefring_wing",
     "sikr_hefring_wing",
     "sikr_hefring_wing",
-    "sikr_hefring_wing"
+    "sikr_durnir_wing"
   ]
 }

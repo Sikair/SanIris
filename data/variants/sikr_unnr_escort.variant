@@ -3,7 +3,7 @@
   "hullId": "sikr_unnr",
   "displayName": "Escort",
   "goalVariant": true,
-  "fluxCapacitors": 12,
+  "fluxCapacitors": 17,
   "fluxVents": 20,
   "quality": 1,
   "permaMods": [],

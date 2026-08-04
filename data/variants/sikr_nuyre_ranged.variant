@@ -4,7 +4,7 @@
   "displayName": "Ranged",
   "goalVariant": true,
   "fluxCapacitors": 6,
-  "fluxVents": 11,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

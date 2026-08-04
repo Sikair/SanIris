@@ -4,17 +4,19 @@
   "displayName": "Artillery",
   "goalVariant": true,
   "fluxCapacitors": 12,
-  "fluxVents": 4,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
-    "dedicated_targeting_core"
+    "dedicated_targeting_core",
+    "defensive_targeting_array"
   ],
   "weaponGroups": [
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
+        "WS0001": "sikr_urchin",
         "WS0003": "hveldriver"
       }
     },
@@ -28,9 +30,7 @@
     {
       "autofire": false,
       "mode": "LINKED",
-      "weapons": {
-        "WS0001": "sikr_urchin_small"
-      }
+      "weapons": {}
     }
   ],
   "modules": [
@@ -39,6 +39,6 @@
     }
   ],
   "wings": [
-    "sikr_hefring_wing"
+    "sikr_herkir_wing"
   ]
 }

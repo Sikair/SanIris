@@ -4,7 +4,7 @@
   "displayName": "Transport",
   "goalVariant": true,
   "fluxCapacitors": 9,
-  "fluxVents": 12,
+  "fluxVents": 17,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

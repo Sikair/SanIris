@@ -7,9 +7,9 @@
   "height": 206,
   "width": 258,
   "center": [129, 125],
-  "collisionRadius": 156,
+  "collisionRadius": 169.5,
   "shieldCenter": [-7, -0],
-  "shieldRadius": 146.5,
+  "shieldRadius": 158.5,
   "viewOffset": 0,
   "builtInMods": [
     "sikr_aegirran"

@@ -4,7 +4,7 @@
   "displayName": "Anchor",
   "goalVariant": true,
   "fluxCapacitors": 29,
-  "fluxVents": 10,
+  "fluxVents": 15,
   "quality": 1,
   "permaMods": [],
   "hullMods": [

@@ -4,7 +4,7 @@
   "displayName": "Disrupter",
   "goalVariant": true,
   "fluxCapacitors": 2,
-  "fluxVents": 9,
+  "fluxVents": 11,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
