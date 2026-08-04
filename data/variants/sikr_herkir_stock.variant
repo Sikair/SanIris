@@ -1,0 +1,29 @@
+{
+  "variantId": "sikr_herkir_stock",
+  "hullId": "sikr_herkir",
+  "displayName": "Medium",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "HEAD": "sikr_herkir_head"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "ARM_MR": "sikr_herkir_cannon"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,47 @@
+{
+  "id": "sikr_mech_grenade",
+  "specClass": "projectile",
+  "projectileSpecId": "sikr_grenade",
+  "type": "BALLISTIC",
+  "size": "SMALL",
+  "displayArcRadius": 250,
+  "turretSprite": "graphics/ships/fighters/mech/sikr_mech_grenade.png",
+  "hardpointSprite": "",
+  "specialWeaponGlowHeight": 10,
+  "specialWeaponGlowWidth": 4,
+  "turretOffsets": [
+    33,
+    -5
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    17,
+    5
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "LINKED",
+  "animationType": "SMOKE",
+  "interruptibleBurst": true,
+  "smokeSpec": {
+    "particleSizeMin": 10,
+    "particleSizeRange": 15,
+    "cloudParticleCount": 3,
+    "cloudDuration": 1,
+    "cloudRadius": 6,
+    "blowbackParticleCount": 3,
+    "blowbackDuration": 0.5,
+    "blowbackLength": 15,
+    "blowbackSpread": 10,
+    "particleColor": [
+      255,
+      255,
+      255,
+      255
+    ]
+  },
+  "fireSoundTwo": "light_machinegun_fire"
+}

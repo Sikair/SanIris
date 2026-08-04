@@ -1,0 +1,39 @@
+{
+  "variantId": "sikr_station3_standard",
+  "hullId": "sikr_station3",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [
+    {
+      "WS0001": "sikr_station_citadel_standard"
+    },
+    {
+      "WS0002": "sikr_station_support_standard"
+    },
+    {
+      "WS0004": "sikr_station_combat2_standard"
+    },
+    {
+      "WS0006": "sikr_station_citadel_standard"
+    },
+    {
+      "WS0005": "sikr_station_support_standard"
+    },
+    {
+      "WS0003": "sikr_station_combat2_standard"
+    },
+	{
+      "WS0007": "sikr_station_shield_standard"
+    },
+	{
+      "WS0008": "sikr_station_shield_standard"
+    }
+  ],
+  "wings": []
+}

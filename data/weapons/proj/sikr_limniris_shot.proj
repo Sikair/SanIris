@@ -1,0 +1,21 @@
+{
+	"id":"sikr_limniris_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":90.0,
+	"hitGlowRadius":60,
+	"width":15.0,
+	"fadeTime":0.25,
+	"fringeColor":[255,0,210,255],
+	"coreColor":[255,255,255,200],
+	"glowColor":[255,0,210,255],
+	"glowRadius":10,
+	"textureScrollSpeed":64.0,
+	"passThroughMissiles":true,
+	"passThroughFighters":true,
+	"pixelsPerTexel":1.0,
+	"onFireEffect":"data.scripts.weapons.sikr_limniris_fire",
+	"onHitEffect":"data.scripts.weapons.sikr_limniris_hit"
+}

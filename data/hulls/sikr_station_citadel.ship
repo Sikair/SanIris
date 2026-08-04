@@ -1,0 +1,204 @@
+{
+  "hullName": "Module, Combat Citadel",
+  "hullId": "sikr_station_citadel",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/stations/sikr_station_citadel.png",
+  "style": "MIDLINE",
+  "height": 366,
+  "width": 238,
+  "center": [119, 175],
+  "collisionRadius": 217,
+  "shieldCenter": [15, -0],
+  "shieldRadius": 194.5,
+  "viewOffset": 0,
+  "moduleAnchor": [
+    -66,
+    0
+  ],
+  "builtInMods": [
+    "supercomputer",
+    "reduced_explosion",
+    "do_not_fire_through",
+    "always_detaches"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 200,
+      "angle": 0,
+      "locations": [-87, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-32, 47]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [-2, 47]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [31, 47]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 90,
+      "locations": [61, 47]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -30,
+      "locations": [-104, -47]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 30,
+      "locations": [-104, 47]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -60,
+      "locations": [-148, -68]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 60,
+      "locations": [-148, 68]
+    },
+    {
+      "id": "WS0010",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 90,
+      "locations": [60, 7]
+    },
+    {
+      "id": "WS0011",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 90,
+      "locations": [98, 7]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -50,
+      "locations": [-71, -42]
+    },
+    {
+      "id": "WS0013",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 50,
+      "locations": [-71, 42]
+    },
+    {
+      "id": "WS0014",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -60,
+      "locations": [-123, -81]
+    },
+    {
+      "id": "WS0015",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 60,
+      "locations": [-123, 81]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -133, 98,
+    -154, 95,
+    -173, 70,
+    -163, 49,
+    -130, 43,
+    -107.5, -0,
+    -130, -43,
+    -163, -49,
+    -173, -70,
+    -154, -95,
+    -133, -98,
+    -106, -114,
+    -95, -103,
+    -80, -101,
+    -69, -83,
+    -19, -58,
+    -15, -47,
+    0, -39,
+    -4, -62,
+    29, -57,
+    64, -38,
+    82, -38,
+    89, -31,
+    100, -35,
+    109, -29,
+    119, -31,
+    135, -18,
+    156, -11,
+    180, -22,
+    186, -4,
+    166, 5,
+    155, 17,
+    147, 14,
+    122, 18,
+    106, 31,
+    92, 35,
+    82, 48,
+    -52, 49,
+    -93, 74,
+    -119, 109
+  ]
+}

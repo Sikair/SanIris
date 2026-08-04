@@ -2,9 +2,9 @@
     "id": "sikr",
     "name": "San-Iris",
     "author": "Sikair",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "An isolationist and spiritualist faction, controlling their population through a strict regime and the strange effect of their water world",
-    "gameVersion": "0.98a-RC7",	
+    "gameVersion": "0.98a-RC8",	
 	"dependencies": [
         {
             "id": "lw_lazylib",

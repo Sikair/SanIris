@@ -1,0 +1,46 @@
+{
+	"id":"sikr_grenade",
+	"specClass":"missile",	
+	"missileType":"BOMB",
+	"sprite":"graphics/missiles/pilum_stage2.png",
+	#"onHitEffect":"com.fs.starfarer.api.impl.combat.PilumOnHitEffect",
+	"size":[6,14],	
+	"center":[3,7],
+	"collisionRadius":8,
+	"collisionClass":"MISSILE_NO_FF",
+	"explosionColor":[255,100,50,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":80, # purely visual
+	"fadeTime":0.2, # fadeout duration
+	"maxFlightTime":3,
+	"armingTime":0.2,	
+	#"glowColor":[125,125,100,255],
+	#"glowRadius":25,
+	"engineSpec":{"turnAcc":0,
+				  "turnRate":0,
+				  "acc":20,
+				  "dec":20},
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"shotRangeVariance":0.75,
+					"range":5,
+					"explosionSpec":{"duration":0.12f,
+									 "radius":50,
+									 "coreRadius":30, # full damage within core radius - at least equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":8.0,
+									 "particleSizeRange":4.0,
+									 "particleDuration":1,
+									 "particleCount":25,
+									 "particleColor":[255,225,125,255],
+									 "explosionColor":[255,225,125,125],
+									 "useDetailedExplosion":true,
+									 "useDetailedExplosionColorAlpha":true,
+									 "detailedExplosionRadius":30,
+									 "detailedExplosionFlashRadius":80,
+									 "detailedExplosionFlashDuration":0.4,
+									 "detailedExplosionFlashColorFringe":[200,175,100,255],
+									 "detailedExplosionFlashColorCore":[155,155,155,255],
+									 "sound":"system_canister_flak_explosion"},
+					}
+	
+}

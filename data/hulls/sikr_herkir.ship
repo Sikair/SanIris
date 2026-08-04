@@ -1,0 +1,107 @@
+{
+  "hullName": "Herkir",
+  "hullId": "sikr_herkir",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/fighters/mech/herkir/sikr_herkir_empty.png",
+  "style": "MIDLINE",
+  "height": 38,
+  "width": 38,
+  "center": [20, 18],
+  "collisionRadius": 29.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 28.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "sikr_mechs"
+  ],
+  "builtInWeapons": {
+    "BODY": "sikr_herkir_body",
+    "PAULDRON_L_SR": "sikr_herkir_pauldronL",
+    "PAULDRON_SR": "sikr_herkir_pauldronR"
+  },
+  "weaponSlots": [
+    {
+      "id": "HEAD",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "TURRET",
+      "arc": 85,
+      "angle": 0,
+      "locations": [6, -10],
+      "renderOrderMod": 1000
+    },
+    {
+      "id": "PAULDRON_SR",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 356,
+      "angle": -74,
+      "locations": [1.5, -7],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "ARM_MR",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 23,
+      "angle": 0,
+      "locations": [-13.5, -14.5]
+    },
+    {
+      "id": "PAULDRON_L_SR",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 356,
+      "angle": -52,
+      "locations": [8, -5],
+      "renderOrderMod": 100
+    },
+    {
+      "id": "BODY",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -65,
+      "locations": [1, 1]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-6, 16.5],
+      "length": 8.5,
+      "width": 6,
+      "angle": 113,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [-10.5, 6],
+      "length": 8.5,
+      "width": 6,
+      "angle": 155.5,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    },
+    {
+      "location": [4.5, 13],
+      "length": 8.5,
+      "width": 6,
+      "angle": 67,
+      "contrailSize": 6,
+      "style": "CUSTOM",
+      "styleId": "EAGIRRAN"
+    }
+  ],
+  "bounds": [
+    -13.5, -6,
+    3.5, -10,
+    17.5, 4.5,
+    -10, 13.5
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "variantId": "sikr_station_citadel_standard",
+  "hullId": "sikr_station_citadel",
+  "displayName": "Standard",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0002": "sikr_morgadilis_macro2",
+        "WS0003": "sikr_morgadilis_macro2",
+        "WS0004": "sikr_morgadilis_macro2",
+        "WS0005": "sikr_morgadilis_macro2"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "sikr_neolg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0006": "sikr_fraggun_heavy",
+        "WS0008": "sikr_fraggun_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "sikr_fraggun_heavy",
+        "WS0009": "sikr_fraggun_heavy"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "sikr_urchin",
+        "WS0011": "sikr_urchin"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0012": "vulcan",
+        "WS0014": "vulcan"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0013": "lightmg",
+        "WS0015": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

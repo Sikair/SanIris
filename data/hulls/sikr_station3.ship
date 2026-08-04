@@ -1,0 +1,115 @@
+{
+  "hullName": "Orbital Station",
+  "hullId": "sikr_station3",
+  "hullSize": "CAPITAL_SHIP",
+  "spriteName": "graphics/ships/stations/sikr_station_core.png",
+  "style": "MIDLINE",
+  "height": 622,
+  "width": 526,
+  "center": [263, 311],
+  "collisionRadius": 202,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 214,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk",
+    "sikr_axialrotation",
+    "supercomputer",
+    "shared_flux_sink"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [329, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 60,
+      "locations": [127, 140]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -60,
+      "locations": [90, -155]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 120,
+      "locations": [-90, 155]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -120,
+      "locations": [-127, -140]
+    },
+    {
+      "id": "WS0006",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 180,
+      "locations": [-329, -0]
+    },
+    {
+      "id": "WS0007",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 90,
+      "locations": [0, -0]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "STATION_MODULE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": -90,
+      "locations": [0, 0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    -264.5, -30.5,
+    -179, -85,
+    -164, -127,
+    -24.5, -205.5,
+    2, -190.5,
+    24.5, -206.5,
+    163.5, -125.5,
+    180, -83.5,
+    267, -29,
+    267, 29,
+    180, 83.5,
+    163.5, 125.5,
+    24.5, 206.5,
+    2, 190.5,
+    -24.5, 205.5,
+    -164, 127,
+    -179, 85,
+    -264.5, 30.5
+  ]
+}
