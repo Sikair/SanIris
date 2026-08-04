@@ -4,7 +4,7 @@
     "author": "Sikair",
     "version": "1.0.0",
     "description": "An isolationist and spiritualist faction, controlling their population through a strict regime and the strange effect of their water world",
-    "gameVersion": "0.97a-RC11",	
+    "gameVersion": "0.98a-RC7",	
 	"dependencies": [
         {
             "id": "lw_lazylib",
@@ -15,6 +15,6 @@
             "name": "MagicLib"
         }
     ],
-	"jars":["jars/Sikr-Iris.jar"],	
+	"jars":["jars/SanIris.jar"],	
 	"modPlugin":"data.scripts.sikr_saniris_mod_plugin",
 }

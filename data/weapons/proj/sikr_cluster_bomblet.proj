@@ -18,7 +18,8 @@
 					 "collisionClassByFighter":HITS_SHIPS_AND_ASTEROIDS},				  
 	"engineSpec":{"turnAcc":0,
 				  "turnRate":0,
-				  "acc":40,
-				  "dec":40},
+				  "acc":20,
+				  "dec":20},
+	"onFireEffect":"data.scripts.weapons.sikr_rnd_lifetime_fire",
 	#"onHitEffect":"data.scripts.weapons.sikr_emp_charge_hit"
 }

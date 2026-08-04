@@ -1,10 +1,12 @@
 package data.ai;
 
+import com.fs.starfarer.api.characters.PersonAPI;
 import com.fs.starfarer.api.combat.CombatEngineAPI;
 import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipSystemAIScript;
 import com.fs.starfarer.api.combat.ShipSystemAPI;
 import com.fs.starfarer.api.combat.ShipwideAIFlags;
+import com.fs.starfarer.api.impl.campaign.ids.Personalities;
 import com.fs.starfarer.api.util.IntervalUtil;
 
 import org.lazywizard.lazylib.MathUtils;
@@ -16,7 +18,7 @@ public class sikr_ramming_ai implements ShipSystemAIScript{
 
     private ShipAPI ship;
     private ShipSystemAPI system;
-    private final IntervalUtil interval = new IntervalUtil (1.5f,2f);
+    private final IntervalUtil interval = new IntervalUtil (1f,1.5f);
     private float RANGE = 1200;
 
     public void init(ShipAPI ship, ShipSystemAPI system, ShipwideAIFlags flags, CombatEngineAPI engine) {
@@ -61,6 +63,28 @@ public class sikr_ramming_ai implements ShipSystemAIScript{
                                         target_danger += 1;
                                     }
                                 }
+                                
+                                PersonAPI captain = ship.getCaptain();
+                                String personality = (captain != null && captain.getPersonalityAPI() != null)
+                                    ? captain.getPersonalityAPI().getId()
+                                    : Personalities.STEADY; // fallback sûr
+
+                                switch(personality){
+                                    case Personalities.RECKLESS :
+                                        target_danger -= 2;
+                                    break;
+                                    case Personalities.AGGRESSIVE :
+                                        target_danger -= 1;
+                                    break;
+                                    case Personalities.STEADY :
+                                    break;
+                                    case Personalities.CAUTIOUS :
+                                    break;
+                                    case Personalities.TIMID :
+                                        target_danger += 1;
+                                    break;
+                                }
+                                
                                 if(ship_danger > target_danger+1 || target_danger <= 6 ) ship.useSystem();
                             }
                         }

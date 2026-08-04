@@ -1,8 +1,8 @@
 {
 	"id":"sikr_shed_armor",
 	"type":"STAT_MOD",
-	"aiType":"DAMPER_FIELD",
-	#"aiScript":"data.ai.sikr_emp_ai",
+	"aiType":"CUSTOM",
+	"aiScript":"data.ai.sikr_shed_armor_ai",
 	
 	"statsScript":"data.shipsystems.scripts.sikr_shed_armor",
 	

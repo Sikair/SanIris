@@ -152,7 +152,7 @@ public class sikr_lilies_plugin {
     }
 
     //DEBUG
-    static MarketAPI sikr_iris_market = Global.getSector().getEconomy().getMarket("sikr_iris_market");
+    //static MarketAPI sikr_iris_market = Global.getSector().getEconomy().getMarket("sikr_iris_market");
 
     public static void spawnYellowToSanIris(PersonAPI yellow){
         MarketAPI sikr_iris_market = Global.getSector().getEconomy().getMarket("sikr_iris_market");
@@ -482,7 +482,6 @@ public class sikr_lilies_plugin {
 
             return;
         }else{
-            sikr_iris_market.getCommDirectory().addPerson(blue, 0);
         }
     }
 

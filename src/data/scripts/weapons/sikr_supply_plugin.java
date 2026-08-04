@@ -84,7 +84,7 @@ public class sikr_supply_plugin extends BaseEveryFrameCombatPlugin {
         proj.getVelocity().y = MathUtils.getPoint(new Vector2f(Misc.ZERO), proj.getVelocity().length(), facingSwayless+swayThisFrame).y;
 
         //split check
-        if(MathUtils.getDistance(proj.getLocation(), targeted_point) <= 40){
+        if(MathUtils.getDistance(proj.getLocation(), targeted_point) <= 80){
             ShipAPI ship = proj.getSource();
             CombatEngineAPI engine = Global.getCombatEngine();
             for(FighterWingAPI w : ship.getAllWings()){

@@ -27,7 +27,7 @@
 					"canSplitEarly":false,
 					"splitSound":"hurricane_mirv_split",
 					"numShots":26,
-					"damage":150,
+					"damage":50,
 					"impact":5,
 					"emp":200,
 					"damageType":ENERGY,

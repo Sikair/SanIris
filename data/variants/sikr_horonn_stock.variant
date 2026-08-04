@@ -20,21 +20,21 @@
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "ARM_R": "sikr_mech_sniper_R"
+        "ARM_MR": "sikr_mech_sniper_R"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "ARM_L": "sikr_mech_sniper"
+        "ARM_ML": "sikr_mech_sniper"
       }
     },
     {
       "autofire": false,
       "mode": "LINKED",
       "weapons": {
-        "PAULDRON_L": "sikr_horonn_pauldronL"
+        "PAULDRON_SL": "sikr_horonn_pauldronL"
       }
     }
   ],

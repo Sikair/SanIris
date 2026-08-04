@@ -9,3 +9,4 @@ This results in a manoeuvrability and/or armor bonus scaling on base speed.",Inc
 
 Increases fighter weapons range by %s up to %s su and reduce damage taken by %s, but makes the fighters unable to leave the vicinity of their ship.","Increases fighter range, less damage taken and reduces fighter roam range to zero.",,graphics/hullmods/defensive_targeting_array.png
 Small Ballistics Integration,sikr_sbi,,,,,,,,TRUE,,0,0,0,0,data.hullmods.sikr_small_integration,<tooltip created in the script due to lots of highlighting>,Reduces ordnance point cost of small ballistic weapons and increases range.,,graphics/hullmods/sikr_small_integration.png
+Axial Rotation,sikr_axialrotation,,,,,,,,TRUE,,0,0,0,0,data.hullmods.sikr_AxialRotation,This structure constantly rotates around its axis.,,,graphics/hullmods/axial_rotation.png

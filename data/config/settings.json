@@ -11,6 +11,7 @@
 			"sikr_frost":"graphics/fx/sikr_frost.png",
 			"sikr_charge_glow":"graphics/fx/sikr_charge_glow.png",
 			"sikr_vine_shell":"graphics/missiles/sikr_vine_shell.png",
+			"sikr_durnir_shield":"graphics/fx/sikr_durnir_shield.png",
 			"sikr_vanilla_engine":"graphics/fx/engineflame32-orig.png",
 			"trails_trail_clean":"graphics/trails/fx/trails_clean.png",
 			"trails_trail_fuzzy":"graphics/trails/fx/trails_fuzzy.png",
@@ -20,6 +21,7 @@
 			"trails_trail_twin":"graphics/trails/fx/trails_twin.png",
 			"trails_trail_foggy":"graphics/trails/fx/trails_foggy.png",
 			"trails_trail_tentacle":"graphics/trails/fx/trails_tentacle.png",
+			"sikr_ship_bara":"graphics/fx/sikr_bara_armor_shed.png",
             },	
 		"blueprint_packages":{
 			"sikr_ar_package":"graphics/icons/cargo/sikr_ar_blueprint.png",
@@ -27,13 +29,7 @@
 			"sikr_arw_package":"graphics/icons/cargo/sikr_arw_blueprint.png",
 			},
 		"characters":{
-			"sikr_lily_yellow":"graphics/portraits/characters/sikr_lily_yellow.png",
-			"sikr_lily_white":"graphics/portraits/characters/sikr_lily_white.png",
-			"sikr_lily_pink":"graphics/portraits/characters/sikr_lily_pink.png",
-			"sikr_lily_orange":"graphics/portraits/characters/sikr_lily_orange.png",
-			"sikr_lily_red":"graphics/portraits/characters/sikr_lily_red.png",
-			"sikr_lily_purple":"graphics/portraits/characters/sikr_lily_purple.png",
-			"sikr_lily_blue":"graphics/portraits/characters/sikr_lily_blue.png"
+			"sikr_lily_yellow":"graphics/portraits/characters/sikr_lily_yellow.png"
 			},
     },
 		

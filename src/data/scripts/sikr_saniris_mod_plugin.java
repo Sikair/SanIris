@@ -2,25 +2,27 @@ package data.scripts;
 
 import com.fs.starfarer.api.BaseModPlugin;
 import com.fs.starfarer.api.Global;
-import com.fs.starfarer.api.PluginPick;
+import com.fs.starfarer.api.campaign.PlanetAPI;
 //import com.fs.starfarer.api.campaign.CampaignPlugin;
 import com.fs.starfarer.api.campaign.econ.MarketAPI;
+import com.fs.starfarer.api.campaign.listeners.PlayerColonizationListener;
 import com.fs.starfarer.api.characters.ImportantPeopleAPI;
 import com.fs.starfarer.api.characters.PersonAPI;
-import com.fs.starfarer.api.combat.MissileAIPlugin;
-import com.fs.starfarer.api.combat.MissileAPI;
-import com.fs.starfarer.api.combat.ShipAPI;
+// import com.fs.starfarer.api.impl.campaign.intel.events.BaseHostileActivityFactor;
+// import com.fs.starfarer.api.impl.campaign.intel.events.HostileActivityEventIntel;
 
 import org.dark.shaders.util.ShaderLib;
 import org.dark.shaders.util.TextureData;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
+// import data.campaign.events.sikr_SanIrisActivityCause;
+// import data.campaign.events.sikr_SanIrisHostileActivityFactor;
 import data.scripts.sikr_trail_data_store.sikr_trailData;
 import data.scripts.world.sikr_saniris_gen;
 import exerelin.campaign.SectorManager;
 
-public class sikr_saniris_mod_plugin extends BaseModPlugin {
+public class sikr_saniris_mod_plugin extends BaseModPlugin implements PlayerColonizationListener {
 
     @Override
 	public void onApplicationLoad() throws Exception {  
@@ -101,6 +103,7 @@ public class sikr_saniris_mod_plugin extends BaseModPlugin {
         }
     }
 
+    @Override
     public void onNewGameAfterEconomyLoad(){
 
         sikr_lilies_plugin.generate_lilies();
@@ -131,10 +134,54 @@ public class sikr_saniris_mod_plugin extends BaseModPlugin {
     }
 
     @Override
-    public PluginPick<MissileAIPlugin> pickMissileAI(MissileAPI missile, ShipAPI launchingShip) {
-        switch (missile.getProjectileSpecId()) {
-            default:        
-        }
-        return null;	
+    public void onGameLoad(boolean newGame) {
+        //this.addSanIrisCrisis();
+    }
+
+    @Override
+    public void afterGameSave() {
+        //this.addSanIrisCrisis();
+    }
+
+    // @Override
+    // public PluginPick<MissileAIPlugin> pickMissileAI(MissileAPI missile, ShipAPI launchingShip) {
+    //     switch (missile.getProjectileSpecId()) {
+    //         default:        
+    //     }
+    //     return null;	
+    // }
+
+    @Override
+    public void reportPlayerColonizedPlanet(PlanetAPI planet) {
+        //this.addSanIrisCrisis();
+    }
+
+    @Override
+    public void reportPlayerAbandonedColony(MarketAPI arg0) {
+    }
+
+    public void addSanIrisCrisis() {
+        // HostileActivityEventIntel hostileActivityEventIntel = HostileActivityEventIntel.get();
+        
+        // if (hostileActivityEventIntel != null) {
+        //     boolean hasSanIrisCrisisFactor = false;
+        //     for (Object factor : hostileActivityEventIntel.getFactors()) {
+        //         if (factor instanceof sikr_SanIrisHostileActivityFactor) {
+        //             hasSanIrisCrisisFactor = true;
+        //             break;
+        //         }
+        //     }
+
+        //     if (!hasSanIrisCrisisFactor) {
+        //         hostileActivityEventIntel.addActivity(new sikr_SanIrisHostileActivityFactor(hostileActivityEventIntel),
+        //                 new sikr_SanIrisActivityCause(hostileActivityEventIntel));
+        //     }
+        // }
+
+        // BaseHostileActivityFactor factor = hostileActivityEventIntel.getActivityOfClass(sikr_SanIrisHostileActivityFactor.class);
+        // if(factor != null){
+        //     hostileActivityEventIntel.removeActivity(factor);
+        // }
+
     }
 }

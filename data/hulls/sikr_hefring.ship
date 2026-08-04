@@ -16,8 +16,8 @@
     "no_weapon_flux"
   ],
   "builtInWeapons": {
-    "PAULDRON_L": "sikr_hefring_pauldronL",
-    "PAULDRON_R": "sikr_hefring_pauldronR"
+    "PAULDRON_SL": "sikr_hefring_pauldronL",
+    "PAULDRON_SR": "sikr_hefring_pauldronR"
   },
   "weaponSlots": [
     {
@@ -30,7 +30,7 @@
       "locations": [14, -0]
     },
     {
-      "id": "PAULDRON_L",
+      "id": "PAULDRON_SL",
       "size": "LARGE",
       "type": "DECORATIVE",
       "mount": "TURRET",
@@ -39,7 +39,7 @@
       "locations": [6, 6]
     },
     {
-      "id": "PAULDRON_R",
+      "id": "PAULDRON_SR",
       "size": "LARGE",
       "type": "DECORATIVE",
       "mount": "TURRET",
@@ -48,7 +48,7 @@
       "locations": [6, -6]
     },
     {
-      "id": "ARM_L",
+      "id": "ARM_ML",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",
@@ -57,7 +57,7 @@
       "locations": [5, 11]
     },
     {
-      "id": "ARM_R",
+      "id": "ARM_MR",
       "size": "SMALL",
       "type": "BUILT_IN",
       "mount": "TURRET",

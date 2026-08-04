@@ -21,3 +21,5 @@ trails_ogmos_4,sikr_ogmos_shot,base_trail_heavySmoke,10,0.3,0,0.4,10,14,"[50,50,
 trails_ogmos_1,sikr_ogmos_shot,trails_trail_contrail,10,0,0.2,0.5,10,20,"[100,60,50]","[50,10,10]",0.4,200,5,TRUE,0,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false
 trails_ogmos_2,sikr_ogmos_shot,trails_trail_contrail,10,0.05,0.1,0.2,8,16,"[150,120,100]","[50,10,10]",0.3,200,5,TRUE,15,0,1,TRUE,FALSE,TRUE,10,30,0.3,0,0,80,true,false
 trails_frag_1,sikr_fraggun_shot,trails_trail_clean,10,0.1,0.3,0.1,10,4,"[230,230,55,255]","[180,180,25,255]",0.4,-1,0,TRUE,30,0,1,TRUE,FALSE,TRUE,15,60,0.4,0,0,50,false,false
+trails_limniris_1,sikr_limniris_shot,trails_trail_zappy,10,0.1,0.3,0.2,10,8,"[200,0,165,255]","[255,0,210,255]",0.4,-1,0,TRUE,30,0,1,TRUE,FALSE,TRUE,15,60,0.4,0,0,50,false,false
+trails_limniris_2,sikr_limniris_shot,trails_trail_clean,10,0,0.1,0.1,4,20,"[255,120,230,255]","[255,120,180,255]",0.6,200,100,TRUE,20,0,1,TRUE,FALSE,TRUE,0,0,0,0,0,0,false,false

@@ -68,7 +68,7 @@ public class sikr_supply_plugin2 extends BaseEveryFrameCombatPlugin{
 			return;
 		}
 
-		if(!target.isHulk()){
+		if(Global.getCombatEngine().isEntityInPlay(target) && !target.isHulk()){
 
 			//homing
 			lifeCounter+=amount;

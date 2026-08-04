@@ -6,8 +6,8 @@
             "sikr_dufa_assault":4,
 			"sikr_dufa_standard":3,
 
-            "sikr_himin_pd":2,
-            "sikr_himin_assault":2,
+            "sikr_ymin_pd":2,
+            "sikr_ymin_assault":2,
 			
 			"sikr_lehal_torpedo":1,
 			"sikr_lehal_standard":1,
@@ -20,10 +20,10 @@
             "sikr_dufa_assault":4,
 			"sikr_dufa_standard":3,
 
-            "sikr_himin_pd":3,
-            "sikr_himin_assault":3,
-			"sikr_himin_pressure":3,
-			"sikr_himin_disrupt":2,
+            "sikr_ymin_pd":3,
+            "sikr_ymin_assault":3,
+			"sikr_ymin_pressure":3,
+			"sikr_ymin_disrupt":2,
 			
 			"sikr_lehal_torpedo":1,
 			"sikr_lehal_disrupt":1,

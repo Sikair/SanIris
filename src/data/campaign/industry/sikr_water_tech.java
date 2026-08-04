@@ -75,7 +75,7 @@ public class sikr_water_tech extends BaseHazardCondition {
         super.apply(id);
 
         //Mining and aquaculture bonus
-        for(MarketConditionAPI m : market.getConditions()){
+        for(MarketConditionAPI m : market.getConditions()) {
             String commodity = COMMODITY.get(m.getId());
             if(commodity != null){
                 if(market.hasIndustry(INDUSTRY.get(commodity))){
@@ -92,7 +92,7 @@ public class sikr_water_tech extends BaseHazardCondition {
         }
 
         //Industry bonus
-        if(market.hasIndustry(Industries.HEAVYINDUSTRY) || market.hasIndustry(Industries.ORBITALWORKS)){
+        if(market.hasIndustry(Industries.HEAVYINDUSTRY) || market.hasIndustry(Industries.ORBITALWORKS)) {
             Industry industry_heavy = market.getIndustry(Industries.HEAVYINDUSTRY);
             if (industry_heavy == null) industry_heavy = market.getIndustry(Industries.ORBITALWORKS);
 
@@ -152,7 +152,7 @@ public class sikr_water_tech extends BaseHazardCondition {
             }
         }
 
-        if(market.hasIndustry(Industries.HEAVYINDUSTRY) || market.hasIndustry(Industries.ORBITALWORKS)){
+        if(market.hasIndustry(Industries.HEAVYINDUSTRY) || market.hasIndustry(Industries.ORBITALWORKS)) {
             IndustrySpecAPI industry_heavy = Global.getSettings().getIndustrySpec(Industries.HEAVYINDUSTRY);
             if (industry_heavy == null) industry_heavy = Global.getSettings().getIndustrySpec(Industries.ORBITALWORKS);
 
