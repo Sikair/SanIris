@@ -48,105 +48,105 @@ public class sikr_lilies_plugin {
         ip.addPerson(sikr_lily_yellow);
         
         //White Lily
-        PersonAPI sikr_lily_white = Global.getFactory().createPerson();
-        sikr_lily_white.getName().setFirst("Alina");
-        sikr_lily_white.getName().setLast("");
-        sikr_lily_white.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_white"));
-        sikr_lily_white.setGender(Gender.FEMALE);
-        sikr_lily_white.setFaction("sikr_saniris");
-        sikr_lily_white.setRankId(Ranks.AGENT);
-        sikr_lily_white.setPostId(Ranks.POST_AGENT);
-        //sikr_lily_white.getStats().setSkillLevel(Skills., 1);
-        sikr_lily_white.setPersonality(Personalities.STEADY);
-        sikr_lily_white.setVoice(Voices.OFFICIAL);
-        sikr_lily_white.setId("sikr_lily_white");
-
-        ip.addPerson(sikr_lily_white);
+//        PersonAPI sikr_lily_white = Global.getFactory().createPerson();
+//        sikr_lily_white.getName().setFirst("Alina");
+//        sikr_lily_white.getName().setLast("");
+//        sikr_lily_white.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_white"));
+//        sikr_lily_white.setGender(Gender.FEMALE);
+//        sikr_lily_white.setFaction("sikr_saniris");
+//        sikr_lily_white.setRankId(Ranks.AGENT);
+//        sikr_lily_white.setPostId(Ranks.POST_AGENT);
+//        //sikr_lily_white.getStats().setSkillLevel(Skills., 1);
+//        sikr_lily_white.setPersonality(Personalities.STEADY);
+//        sikr_lily_white.setVoice(Voices.OFFICIAL);
+//        sikr_lily_white.setId("sikr_lily_white");
+//
+//        ip.addPerson(sikr_lily_white);
 
         //Pink Lily
         //Ship name : Emporium
-        PersonAPI sikr_lily_pink = Global.getFactory().createPerson();
-        sikr_lily_pink.getName().setFirst("Primrose");
-        sikr_lily_pink.getName().setLast("");
-        sikr_lily_pink.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_pink"));
-        sikr_lily_pink.setGender(Gender.FEMALE);
-        sikr_lily_pink.setFaction("sikr_saniris");
-        sikr_lily_pink.setRankId(Ranks.AGENT);
-        sikr_lily_pink.setPostId(Ranks.POST_AGENT);
-        //sikr_lily_pink.getStats().setSkillLevel(Skills., 1);
-        sikr_lily_pink.setPersonality(Personalities.CAUTIOUS);
-        sikr_lily_pink.setVoice(Voices.BUSINESS);
-        sikr_lily_pink.setId("sikr_lily_pink");
-
-        sikr_lily_pink.setImportance(PersonImportance.HIGH);
-        sikr_lily_pink.addTag(Tags.CONTACT_TRADE);
-        sikr_lily_pink.addTag(Tags.CONTACT_MILITARY);
-
-        ip.addPerson(sikr_lily_pink);
+//        PersonAPI sikr_lily_pink = Global.getFactory().createPerson();
+//        sikr_lily_pink.getName().setFirst("Primrose");
+//        sikr_lily_pink.getName().setLast("");
+//        sikr_lily_pink.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_pink"));
+//        sikr_lily_pink.setGender(Gender.FEMALE);
+//        sikr_lily_pink.setFaction("sikr_saniris");
+//        sikr_lily_pink.setRankId(Ranks.AGENT);
+//        sikr_lily_pink.setPostId(Ranks.POST_AGENT);
+//        //sikr_lily_pink.getStats().setSkillLevel(Skills., 1);
+//        sikr_lily_pink.setPersonality(Personalities.CAUTIOUS);
+//        sikr_lily_pink.setVoice(Voices.BUSINESS);
+//        sikr_lily_pink.setId("sikr_lily_pink");
+//
+//        sikr_lily_pink.setImportance(PersonImportance.HIGH);
+//        sikr_lily_pink.addTag(Tags.CONTACT_TRADE);
+//        sikr_lily_pink.addTag(Tags.CONTACT_MILITARY);
+//
+//        ip.addPerson(sikr_lily_pink);
 
         //Orange Lily
-        PersonAPI sikr_lily_orange = Global.getFactory().createPerson();
-        sikr_lily_orange.getName().setFirst("Marigold");
-        sikr_lily_orange.getName().setLast("");
-        sikr_lily_orange.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_orange"));
-        sikr_lily_orange.setGender(Gender.FEMALE);
-        sikr_lily_orange.setFaction("sikr_saniris");
-        sikr_lily_orange.setRankId(Ranks.AGENT);
-        sikr_lily_orange.setPostId(Ranks.POST_AGENT);
-        //sikr_lily_orange.getStats().setSkillLevel(Skills., 1);
-        sikr_lily_orange.setPersonality(Personalities.AGGRESSIVE);
-        sikr_lily_orange.setVoice(Voices.SOLDIER);
-        sikr_lily_orange.setId("sikr_lily_orange");
-
-        ip.addPerson(sikr_lily_orange);
+//        PersonAPI sikr_lily_orange = Global.getFactory().createPerson();
+//        sikr_lily_orange.getName().setFirst("Marigold");
+//        sikr_lily_orange.getName().setLast("");
+//        sikr_lily_orange.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_orange"));
+//        sikr_lily_orange.setGender(Gender.FEMALE);
+//        sikr_lily_orange.setFaction("sikr_saniris");
+//        sikr_lily_orange.setRankId(Ranks.AGENT);
+//        sikr_lily_orange.setPostId(Ranks.POST_AGENT);
+//        //sikr_lily_orange.getStats().setSkillLevel(Skills., 1);
+//        sikr_lily_orange.setPersonality(Personalities.AGGRESSIVE);
+//        sikr_lily_orange.setVoice(Voices.SOLDIER);
+//        sikr_lily_orange.setId("sikr_lily_orange");
+//
+//        ip.addPerson(sikr_lily_orange);
 
         //Red Lily
-        PersonAPI sikr_lily_red = Global.getFactory().createPerson();
-        sikr_lily_red.getName().setFirst("Scarlett");
-        sikr_lily_red.getName().setLast("");
-        sikr_lily_red.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_red"));
-        sikr_lily_red.setGender(Gender.FEMALE);
-        sikr_lily_red.setFaction("sikr_saniris");
-        sikr_lily_red.setRankId(Ranks.AGENT);
-        sikr_lily_red.setPostId(Ranks.POST_AGENT);
-        //sikr_lily_red.getStats().setSkillLevel(Skills., 1);
-        sikr_lily_red.setPersonality(Personalities.AGGRESSIVE);
-        sikr_lily_red.setVoice(Voices.SPACER);
-        sikr_lily_red.setId("sikr_lily_red");
-
-        ip.addPerson(sikr_lily_red);
+//        PersonAPI sikr_lily_red = Global.getFactory().createPerson();
+//        sikr_lily_red.getName().setFirst("Scarlett");
+//        sikr_lily_red.getName().setLast("");
+//        sikr_lily_red.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_red"));
+//        sikr_lily_red.setGender(Gender.FEMALE);
+//        sikr_lily_red.setFaction("sikr_saniris");
+//        sikr_lily_red.setRankId(Ranks.AGENT);
+//        sikr_lily_red.setPostId(Ranks.POST_AGENT);
+//        //sikr_lily_red.getStats().setSkillLevel(Skills., 1);
+//        sikr_lily_red.setPersonality(Personalities.AGGRESSIVE);
+//        sikr_lily_red.setVoice(Voices.SPACER);
+//        sikr_lily_red.setId("sikr_lily_red");
+//
+//        ip.addPerson(sikr_lily_red);
 
         //Purple Lily
-        PersonAPI sikr_lily_purple = Global.getFactory().createPerson();
-        sikr_lily_purple.getName().setFirst("Violet");
-        sikr_lily_purple.getName().setLast("");
-        sikr_lily_purple.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_purple"));
-        sikr_lily_purple.setGender(Gender.FEMALE);
-        sikr_lily_purple.setFaction("sikr_saniris");
-        sikr_lily_purple.setRankId(Ranks.AGENT);
-        sikr_lily_purple.setPostId(Ranks.POST_AGENT);
-        //sikr_lily_purple.getStats().setSkillLevel(Skills., 1);
-        sikr_lily_purple.setPersonality(Personalities.STEADY);
-        sikr_lily_purple.setVoice(Voices.FAITHFUL);
-        sikr_lily_purple.setId("sikr_lily_purple");
-
-        ip.addPerson(sikr_lily_purple);
+//        PersonAPI sikr_lily_purple = Global.getFactory().createPerson();
+//        sikr_lily_purple.getName().setFirst("Violet");
+//        sikr_lily_purple.getName().setLast("");
+//        sikr_lily_purple.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_purple"));
+//        sikr_lily_purple.setGender(Gender.FEMALE);
+//        sikr_lily_purple.setFaction("sikr_saniris");
+//        sikr_lily_purple.setRankId(Ranks.AGENT);
+//        sikr_lily_purple.setPostId(Ranks.POST_AGENT);
+//        //sikr_lily_purple.getStats().setSkillLevel(Skills., 1);
+//        sikr_lily_purple.setPersonality(Personalities.STEADY);
+//        sikr_lily_purple.setVoice(Voices.FAITHFUL);
+//        sikr_lily_purple.setId("sikr_lily_purple");
+//
+//        ip.addPerson(sikr_lily_purple);
 
         //Blue Lily
-        PersonAPI sikr_lily_blue = Global.getFactory().createPerson();
-        sikr_lily_blue.getName().setFirst("Lapis");
-        sikr_lily_blue.getName().setLast("");
-        sikr_lily_blue.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_blue"));
-        sikr_lily_blue.setGender(Gender.FEMALE);
-        sikr_lily_blue.setFaction("sikr_saniris");
-        sikr_lily_blue.setRankId(Ranks.AGENT);
-        sikr_lily_blue.setPostId(Ranks.POST_AGENT);
-        //sikr_lily_blue.getStats().setSkillLevel(Skills., 1);
-        sikr_lily_blue.setPersonality(Personalities.AGGRESSIVE);
-        sikr_lily_blue.setVoice(Voices.FAITHFUL);
-        sikr_lily_blue.setId("sikr_lily_blue");
-
-        ip.addPerson(sikr_lily_blue);
+//        PersonAPI sikr_lily_blue = Global.getFactory().createPerson();
+//        sikr_lily_blue.getName().setFirst("Lapis");
+//        sikr_lily_blue.getName().setLast("");
+//        sikr_lily_blue.setPortraitSprite(Global.getSettings().getSpriteName("characters", "sikr_lily_blue"));
+//        sikr_lily_blue.setGender(Gender.FEMALE);
+//        sikr_lily_blue.setFaction("sikr_saniris");
+//        sikr_lily_blue.setRankId(Ranks.AGENT);
+//        sikr_lily_blue.setPostId(Ranks.POST_AGENT);
+//        //sikr_lily_blue.getStats().setSkillLevel(Skills., 1);
+//        sikr_lily_blue.setPersonality(Personalities.AGGRESSIVE);
+//        sikr_lily_blue.setVoice(Voices.FAITHFUL);
+//        sikr_lily_blue.setId("sikr_lily_blue");
+//
+//        ip.addPerson(sikr_lily_blue);
 
         //log.debug("added character name of " + spec.name);
     }

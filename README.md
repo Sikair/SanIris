@@ -14,9 +14,8 @@ Require :
 
 ## Credits
 
-- Tartiflette 	-	for code inspiration and some pasting
-- Nicke535 		-	for trail plugin, fire effect script
-- Haplogynae	-	for the very vibey music, can be found on [soundcloud](https://soundcloud.com/haplogynae)
-- Nia Tahl		-	for inspiration/code with trailer moments
-- Astarat & PureTilt	-	for the shell ejection script
-- Pyrophage		-	for beverage sprite and help with design
+Music : Haplogynae
+Code reference : Tartiflette, Nicke535, Nia tahl, PureTilt
+Spriting advice : Quacken, Pyrophage, Toopok, and USC
+Writing advice : ComitatensSaxoni
+Modding advice : USC in general
