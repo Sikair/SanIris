@@ -13,7 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "reduced_explosion",
-    "always_detaches"
+    "always_detaches",
+	"ML_enhancedModuleArmor"
   ],
   "builtInWeapons": {
     "WS0001": "sikr_defense_horn_logic"
