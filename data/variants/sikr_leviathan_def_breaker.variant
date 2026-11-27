@@ -3,13 +3,14 @@
   "hullId": "sikr_leviathan_def",
   "displayName": "Breaker",
   "goalVariant": true,
-  "fluxCapacitors": 43,
+  "fluxCapacitors": 44,
   "fluxVents": 50,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "dedicated_targeting_core",
-    "armoredweapons"
+    "armoredweapons",
+    "fluxbreakers"
   ],
   "weaponGroups": [
     {

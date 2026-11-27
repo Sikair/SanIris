@@ -4,12 +4,13 @@
   "displayName": "Assault",
   "goalVariant": true,
   "fluxCapacitors": 36,
-  "fluxVents": 42,
+  "fluxVents": 43,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "dedicated_targeting_core",
-    "heavyarmor"
+    "heavyarmor",
+    "armoredweapons"
   ],
   "weaponGroups": [
     {

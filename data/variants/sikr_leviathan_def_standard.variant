@@ -4,12 +4,13 @@
   "displayName": "Standard",
   "goalVariant": true,
   "fluxCapacitors": 38,
-  "fluxVents": 44,
+  "fluxVents": 45,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "dedicated_targeting_core",
-    "heavyarmor"
+    "heavyarmor",
+    "armoredweapons"
   ],
   "weaponGroups": [
     {
