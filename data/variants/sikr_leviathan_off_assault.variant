@@ -3,14 +3,15 @@
   "hullId": "sikr_leviathan_off",
   "displayName": "Assault",
   "goalVariant": true,
-  "fluxCapacitors": 40,
-  "fluxVents": 30,
+  "fluxCapacitors": 30,
+  "fluxVents": 41,
   "quality": 1,
   "permaMods": [],
   "hullMods": [
     "dedicated_targeting_core",
     "heavyarmor",
-    "magazines"
+    "magazines",
+    "fluxbreakers"
   ],
   "weaponGroups": [
     {
