@@ -14,7 +14,7 @@
   "builtInMods": [
     "always_detaches",
     "reduced_explosion",
-	"ML_enhancedModuleArmor"
+	#"ML_enhancedModuleArmor"
   ],
   "builtInWeapons": {
     "WS0001": "sikr_veko_bi2"

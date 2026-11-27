@@ -139,9 +139,9 @@ public class sikr_saniris_iris implements SectorGeneratorPlugin {
             system.addEntity(jumpPoint1);
 
 
-        system.addRingBand(star, "misc", "rings_ice0", 256f, 3, Color.gray, 256f, IRIS_DISTANCE - 200, 250f, Terrain.RING, null);
-        system.addRingBand(star, "misc", "rings_ice0", 256f, 0, Color.gray, 256f, IRIS_DISTANCE, 350f, Terrain.RING, null);
-        system.addRingBand(star, "misc", "rings_ice0", 256f, 2, Color.gray, 256f, IRIS_DISTANCE + 200, 400f, Terrain.RING , null);
+        system.addRingBand(star, "misc", "rings_ice0", 256f, 3, Color.gray, 256f, IRIS_DISTANCE - 210, 250f, Terrain.RING, null);
+        //system.addRingBand(star, "misc", "rings_ice0", 256f, 0, Color.gray, 256f, IRIS_DISTANCE, 350f, Terrain.RING, null);
+        system.addRingBand(star, "misc", "rings_ice0", 256f, 2, Color.gray, 256f, IRIS_DISTANCE + 210, 400f, Terrain.RING , null);
 
 
         float LILY_DISTANCE = 4600;

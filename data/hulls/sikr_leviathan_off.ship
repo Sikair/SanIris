@@ -12,7 +12,8 @@
   "shieldRadius": 380,
   "viewOffset": 0,
   "builtInMods": [
-    "sikr_aegirran"
+    "sikr_aegirran",
+    "sikr_sbi"
   ],
   "builtInWeapons": {
     "TENT0L": "sikr_logic_thruster",
