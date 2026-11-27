@@ -26,10 +26,6 @@ import java.util.Arrays;
 
 public class sikr_saniris_iris implements SectorGeneratorPlugin {
 
-        private final float IRIS_DISTANCE = 3200;
-        private final float LILY_DISTANCE = 4600;
-        private final float HYACINTH_DISTANCE = 6200;
-
     @Override
     public void generate(SectorAPI sector) {
 
@@ -83,12 +79,9 @@ public class sikr_saniris_iris implements SectorGeneratorPlugin {
 //                    int size, 
 //                    ArrayList<String> marketConditions, 
 //                    ArrayList<String> submarkets, 
-//                    float tarriff    
+//                    float tariff
 
-        system.addRingBand(star, "misc", "rings_ice0", 256f, 3, Color.gray, 256f, IRIS_DISTANCE - 200, 250f, Terrain.RING, null);
-        system.addRingBand(star, "misc", "rings_ice0", 256f, 0, Color.gray, 256f, IRIS_DISTANCE, 350f, Terrain.RING, null);
-        system.addRingBand(star, "misc", "rings_ice0", 256f, 2, Color.gray, 256f, IRIS_DISTANCE + 200, 400f, Terrain.RING , null); 
-
+        float IRIS_DISTANCE = 3200;
         PlanetAPI sikr_iris = system.addPlanet("sikr_iris",
                 star,
                 "Iris",
@@ -135,7 +128,7 @@ public class sikr_saniris_iris implements SectorGeneratorPlugin {
 
         sikr_iris.setMarket(sikr_iris_market);
         
-            //JUMP POINT
+            //Jump-point
             JumpPointAPI jumpPoint1 = Global.getFactory().createJumpPoint("sikr_iris_sys_jp1",
                     "Edel Jump-point"
             );
@@ -144,8 +137,14 @@ public class sikr_saniris_iris implements SectorGeneratorPlugin {
             jumpPoint1.setRelatedPlanet(sikr_iris);
             jumpPoint1.setStandardWormholeToHyperspaceVisual();
             system.addEntity(jumpPoint1);
-        
-            
+
+
+        system.addRingBand(star, "misc", "rings_ice0", 256f, 3, Color.gray, 256f, IRIS_DISTANCE - 210, 250f, Terrain.RING, null);
+        //system.addRingBand(star, "misc", "rings_ice0", 256f, 0, Color.gray, 256f, IRIS_DISTANCE, 350f, Terrain.RING, null);
+        system.addRingBand(star, "misc", "rings_ice0", 256f, 2, Color.gray, 256f, IRIS_DISTANCE + 210, 400f, Terrain.RING , null);
+
+
+        float LILY_DISTANCE = 4600;
         PlanetAPI sikr_lily = system.addPlanet("sikr_lily",
                 star,
                 "Lily",
@@ -190,7 +189,8 @@ public class sikr_saniris_iris implements SectorGeneratorPlugin {
         ), 0.18f, false, true);
 
         sikr_lily.setMarket(sikr_lily_market);
-        
+
+        float HYACINTH_DISTANCE = 6800;
         PlanetAPI sikr_hyacinth = system.addPlanet("sikr_hyacinth",
                 star,
                 "Hyacinth",
@@ -206,9 +206,9 @@ public class sikr_saniris_iris implements SectorGeneratorPlugin {
         
         StarSystemGenerator.addStableLocations(system, 3);
         StarSystemGenerator.addOrbitingEntities(system, star, StarAge.AVERAGE,
-                        1, 3, // min/max entities to add
-                        HYACINTH_DISTANCE + 600, // radius to start adding at 
-                        2, // name offset - next planet will be <system name> <roman numeral of this parameter + 1>
+                        2, 4, // min/max entities to add
+                        HYACINTH_DISTANCE + 600, // radius to start adding at
+                        3, // name offset - next planet will be <system name> <roman numeral of this parameter + 1>
                         true); // whether to use custom or system-name based names
             
         system.autogenerateHyperspaceJumpPoints(true, true, true);
